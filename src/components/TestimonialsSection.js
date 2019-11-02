@@ -19,7 +19,7 @@ function TestimonialsSection(props) {
               avatar: "https://uploads.divjoy.com/pravatar-150x-5.jpeg",
               name: "Sarah Kline",
               bio:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+                "Ce que j’aime dans cet outil, c’est surtout sa simplicité d’utilisation ! Enfin quelque chose de bien pensé, rassurant et moderne [...]",
               company: "Company"
             },
             {
@@ -27,7 +27,7 @@ function TestimonialsSection(props) {
               name: "Shawna Murray",
               role: "Software Engineer",
               bio:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!",
+                "J’ai 4 locations à gérer : j’étais vite débordé avant, mais maintenant tout est centralisé sur mon compte. Si je n'ai pas le temps de me connecter, je reçois quand même toujours les notifications par mail !",
               company: "Company"
             },
             {
@@ -35,7 +35,7 @@ function TestimonialsSection(props) {
               name: "Blake Elder",
               role: "Designer",
               bio:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae.",
+                "Avant, j’envoyais un chèque par la poste... mais c’est bien plus pratique maintenant de payer mon loyer : réglé en un clic, trace du paiement, quittance envoyée par email...",
               company: "Company"
             }
           ]}

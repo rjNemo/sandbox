@@ -30,7 +30,7 @@ function Navbar(props) {
             {auth.user && (
               <div className="navbar-item has-dropdown is-hoverable">
                 <Link className="navbar-link" to="/">
-                  Account
+                  Mon compte
                 </Link>
                 <div className="navbar-dropdown is-boxed">
                   <Link className="navbar-item" to="/dashboard">
@@ -44,7 +44,7 @@ function Navbar(props) {
                       auth.signout();
                     }}
                   >
-                    Sign out
+                    Déconnexion
                   </Link>
                 </div>
               </div>
@@ -52,7 +52,7 @@ function Navbar(props) {
 
             {!auth.user && (
               <Link className="navbar-item" to="/signin">
-                Sign in
+                Connexion
               </Link>
             )}
           </div>

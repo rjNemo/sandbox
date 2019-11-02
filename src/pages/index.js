@@ -14,9 +14,9 @@ function IndexPage(props) {
       <HeroSection
         color="white"
         size="medium"
-        title="To Do App Beta"
-        subtitle="Keep things in order"
-        buttonText="Get Started"
+        title="Assistant de gestion locative"
+        subtitle="Éliminez les tâches répétitives sans valeur ajoutée"
+        buttonText="Commencer"
         image="https://uploads.divjoy.com/undraw-japan_ubgk.svg"
         buttonOnClick={() => {
           router.push("/pricing");
@@ -26,23 +26,23 @@ function IndexPage(props) {
       <FeaturesSection
         color="white"
         size="medium"
-        title="Features"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+        title=""
+        subtitle=""
       />
       <TestimonialsSection
         color="light"
         size="medium"
-        title="Here's what people are saying"
+        title="Témoignages"
         subtitle=""
       />
       <NewsletterSection
         color="white"
         size="medium"
-        title="Stay in the know"
-        subtitle="Receive our latest articles and feature updates"
-        buttonText="Subscribe"
-        inputPlaceholder="Enter your email"
-        subscribedMessage="You are now subscribed!"
+        title="Restez connecté"
+        subtitle="Recevez nos articles et nouvelles fonctionnalités"
+        buttonText="S'inscrire"
+        inputPlaceholder="johndoe@mail.com"
+        subscribedMessage="Bravo !"
       />
     </>
   );

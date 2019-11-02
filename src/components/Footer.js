@@ -13,16 +13,9 @@ function Footer(props) {
           </Link>
         </div>
         <div className="links right">
-          <Link to="/about">About</Link>
+          <Link to="/about">À propos</Link>
           <Link to="/faq">FAQ</Link>
           <Link to="/contact">Contact</Link>
-          <a
-            target="_blank"
-            href="https://medium.com"
-            rel="noopener noreferrer"
-          >
-            Blog
-          </a>
         </div>
         <div className="social right">
           <a
@@ -50,6 +43,24 @@ function Footer(props) {
           >
             <span className="icon">
               <i className="fab fa-instagram" />
+            </span>
+          </a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="icon">
+              <i className="fab fa-linkedin" />
+            </span>
+          </a>
+          <a
+            href="https://medium.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="icon">
+              <i className="fab fa-medium" />
             </span>
           </a>
         </div>

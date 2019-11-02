@@ -16,28 +16,28 @@ function FeaturesSection(props) {
         <Features
           items={[
             {
-              title: "Explore",
+              title: "Automatisez des tâches →",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                "Avis d’échéances, suivi des encaissements, comptabilité locative, quittancement, …",
               image: "https://uploads.divjoy.com/undraw-mind_map_cwng.svg"
             },
             {
-              title: "Explore",
+              title: "Protégez vos intérêts →",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                "Gestion des retards de paiement, révision du loyer, régularisation des charges, …",
               image:
                 "https://uploads.divjoy.com/undraw-personal_settings_kihd.svg"
             },
             {
-              title: "Explore",
+              title: "Soyez mieux accompagné →",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                "Edition du bail, assistance administrative et comptable, information juridique et fiscale, …",
               image: "https://uploads.divjoy.com/undraw-having_fun_iais.svg"
             },
             {
-              title: "Explore",
+              title: "Restez organisé (à venir) →",
               description:
-                "Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.",
+                "Assignation des dépenses, archivage des justificatifs, déclaration des revenus fonciers, …",
               image: "https://uploads.divjoy.com/undraw-balloons_vxx5.svg"
             }
           ]}

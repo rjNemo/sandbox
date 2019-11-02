@@ -69,7 +69,7 @@ function App(props) {
             color="light"
             size="normal"
             logo="https://uploads.divjoy.com/logo.svg"
-            copyright="© 2019 Company"
+            copyright="© 2019 nemo.immo"
           />
         </>
       </Router>
