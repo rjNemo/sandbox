@@ -6,7 +6,7 @@ function FaqPage(props) {
     <FaqSection
       color="white"
       size="medium"
-      title="Frequently Asked Questions"
+      title="Foire Aux Questions"
       subtitle=""
     />
   );

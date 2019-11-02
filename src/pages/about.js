@@ -8,13 +8,13 @@ function AboutPage(props) {
       <ContentSection
         color="primary"
         size="large"
-        title="We help you make money"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!"
+        title="Nous vous faisons gagner du temps"
+        subtitle="Plus de soucis grâce à Ruidy & TiNyny"
       />
       <TeamBiosSection
         color="white"
         size="medium"
-        title="Meet the Team"
+        title="L'équipe à votre service"
         subtitle=""
       />
     </>

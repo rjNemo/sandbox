@@ -6,10 +6,10 @@ function ContactPage(props) {
     <ContactSection
       color="white"
       size="medium"
-      title="Contact Us"
-      subtitle=""
+      title="Contactez-nous"
+      subtitle="C'est un jeu d'enfant"
       showNameField={true}
-      buttonText="Send message"
+      buttonText="Envoyer"
     />
   );
 }

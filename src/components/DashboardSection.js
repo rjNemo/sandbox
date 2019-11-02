@@ -73,12 +73,12 @@ function DashboardSection(props) {
                           menuAlignment="right"
                           icon={<FontAwesomeIcon icon={faAngleDown} />}
                       >
-                          <MenuItem label="Options" variant="header" />
-                          <MenuItem label="Menu Item" />
-                          <MenuItem label="Menu Item" />
+                          <MenuItem label="Actions" variant="header" />
+                          <MenuItem label="Terminer" />
+                          <MenuItem label="Modifier" />
                           <MenuDivider variant="space" />
                           <MenuItem
-                              label="Right Icon"
+                              label="Supprimer"
                               icon={<FontAwesomeIcon icon={faTasks} />}
                               iconPosition="right"
                           />
@@ -94,7 +94,7 @@ function DashboardSection(props) {
           </header>
           <section className="rainbow-m-horizontal_large rainbow-m-top_large rainbow-m-bottom_xx-large">
               <Card
-                  title="Tasks"
+                  title="Tâches"
                   icon={
                       <span
                           className="rainbow-background-color_brand rainbow-border-radius_circle rainbow-align-content_center"
@@ -115,13 +115,13 @@ function DashboardSection(props) {
                           <ButtonIcon icon={<FontAwesomeIcon icon={faAngleDown} />} />
                       </div>
                   }
-                  actions={<Button variant="neutral" label="New" />}
+                  actions={<Button variant="neutral" label="Nouvelle tâche" />}
               >
                   <div className="rainbow-p-bottom_large">
                       <Input
                           label="aplication component search"
                           hideLabel
-                          placeholder="Search"
+                          placeholder="Rechercher"
                           icon={<FontAwesomeIcon icon={faSearch} className="rainbow-color_gray-3" />}
                           type="search"
                           className="rainbow-p-around_small"
@@ -134,7 +134,7 @@ function DashboardSection(props) {
                               alt="the rainbow"
                           />
                           <p className="rainbow-p-top_medium rainbow-font-size-heading_small rainbow-color_gray-4">
-                              No new tasks
+                              Pas de nouvelles tâches
                           </p>
                       </div>
                   </div>

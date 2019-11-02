@@ -46,7 +46,7 @@ function ContactForm(props) {
   if (props.showNameField) {
     if (isEmpty(name)) {
       errors.push({
-        field: "name",
+        field: "nom",
         message: "Please enter your name"
       });
     }
@@ -87,7 +87,7 @@ function ContactForm(props) {
               <FormField
                 value={name}
                 type="text"
-                placeholder="Name"
+                placeholder="Nom"
                 error={showErrors && getError("name")}
                 onChange={value => setName(value)}
               />
