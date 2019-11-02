@@ -59,7 +59,21 @@
                               "name": "",
                               "classNameExpressions": [],
                               "style": "",
-                              "children": []
+                              "children": [],
+                              "propsArray": [
+                                {
+                                  "key": "src",
+                                  "value": "props.logo",
+                                  "isString": false,
+                                  "type": "MemberExpression"
+                                },
+                                {
+                                  "key": "alt",
+                                  "value": "Logo",
+                                  "isString": true,
+                                  "type": "StringLiteral"
+                                }
+                              ]
                             }
                           ],
                           "id": 2503295,
@@ -68,7 +82,15 @@
                           "name": "",
                           "classNames": [],
                           "classNameExpressions": [],
-                          "style": ""
+                          "style": "",
+                          "propsArray": [
+                            {
+                              "key": "href",
+                              "value": "/",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            }
+                          ]
                         }
                       ],
                       "id": 1945490,
@@ -77,7 +99,8 @@
                       "image": "",
                       "name": "",
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     },
                     {
                       "type": "element",
@@ -94,7 +117,8 @@
                           "classNames": [],
                           "classNameExpressions": [],
                           "style": "",
-                          "children": []
+                          "children": [],
+                          "propsArray": []
                         },
                         {
                           "type": "element",
@@ -107,7 +131,8 @@
                           "classNames": [],
                           "classNameExpressions": [],
                           "style": "",
-                          "children": []
+                          "children": [],
+                          "propsArray": []
                         },
                         {
                           "type": "element",
@@ -120,7 +145,8 @@
                           "classNames": [],
                           "classNameExpressions": [],
                           "style": "",
-                          "children": []
+                          "children": [],
+                          "propsArray": []
                         }
                       ],
                       "classNames": [
@@ -140,7 +166,15 @@
                       "isVisible": true,
                       "image": "",
                       "name": "",
-                      "style": ""
+                      "style": "",
+                      "propsArray": [
+                        {
+                          "key": "onClick",
+                          "value": "() => setMenuOpen(!menuOpen)",
+                          "isString": false,
+                          "type": "ArrowFunctionExpression"
+                        }
+                      ]
                     }
                   ],
                   "id": 1224919,
@@ -149,7 +183,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 },
                 {
                   "type": "element",
@@ -199,7 +234,15 @@
                                   "image": "",
                                   "name": "",
                                   "classNameExpressions": [],
-                                  "style": ""
+                                  "style": "",
+                                  "propsArray": [
+                                    {
+                                      "key": "href",
+                                      "value": "/",
+                                      "isString": true,
+                                      "type": "StringLiteral"
+                                    }
+                                  ]
                                 },
                                 {
                                   "type": "element",
@@ -230,7 +273,15 @@
                                       "image": "",
                                       "name": "",
                                       "classNameExpressions": [],
-                                      "style": ""
+                                      "style": "",
+                                      "propsArray": [
+                                        {
+                                          "key": "href",
+                                          "value": "/dashboard",
+                                          "isString": true,
+                                          "type": "StringLiteral"
+                                        }
+                                      ]
                                     },
                                     {
                                       "type": "element",
@@ -253,7 +304,21 @@
                                       "image": "",
                                       "name": "",
                                       "classNameExpressions": [],
-                                      "style": ""
+                                      "style": "",
+                                      "propsArray": [
+                                        {
+                                          "key": "href",
+                                          "value": "/signout",
+                                          "isString": true,
+                                          "type": "StringLiteral"
+                                        },
+                                        {
+                                          "key": "onClick",
+                                          "value": "(e) => {\n  e.preventDefault();\n  auth.signout();\n}",
+                                          "isString": false,
+                                          "type": "ArrowFunctionExpression"
+                                        }
+                                      ]
                                     }
                                   ],
                                   "id": 3892263,
@@ -262,7 +327,8 @@
                                   "image": "",
                                   "name": "",
                                   "classNameExpressions": [],
-                                  "style": ""
+                                  "style": "",
+                                  "propsArray": []
                                 }
                               ],
                               "id": 2746102,
@@ -271,7 +337,8 @@
                               "image": "",
                               "name": "",
                               "classNameExpressions": [],
-                              "style": ""
+                              "style": "",
+                              "propsArray": []
                             }
                           ],
                           "id": 3173739,
@@ -302,7 +369,15 @@
                               "image": "",
                               "name": "",
                               "classNameExpressions": [],
-                              "style": ""
+                              "style": "",
+                              "propsArray": [
+                                {
+                                  "key": "href",
+                                  "value": "/signin",
+                                  "isString": true,
+                                  "type": "StringLiteral"
+                                }
+                              ]
                             }
                           ],
                           "id": 6673849,
@@ -315,7 +390,8 @@
                       "image": "",
                       "name": "",
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     }
                   ],
                   "classNameExpressions": [
@@ -331,7 +407,8 @@
                   "attributes": "{\n\n}",
                   "image": "",
                   "name": "",
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 }
               ],
               "id": 9875662,
@@ -340,11 +417,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 1027311,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "spaced",
+              "value": "props.spaced",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "code": "\tconst auth = useAuth();  \n\tconst [menuOpen, setMenuOpen] = useState(false);\n  \n    ",
@@ -355,7 +447,8 @@
       "nameLibrary": "",
       "description": "",
       "nameFormatted": "Navbar",
-      "modulePath": "components/Navbar"
+      "nameStyleModule": "NavbarComponent",
+      "modulePath": "src/components/Navbar"
     },
     {
       "type": "component",
@@ -395,7 +488,8 @@
           "attributes": "{\n\n}",
           "image": "",
           "name": "",
-          "style": ""
+          "style": "",
+          "propsArray": []
         }
       ],
       "isVisible": true,
@@ -404,7 +498,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "NavbarContainer",
-      "modulePath": "components/NavbarContainer"
+      "nameStyleModule": "NavbarContainer",
+      "modulePath": "src/components/NavbarContainer"
     },
     {
       "type": "component",
@@ -445,7 +540,21 @@
                   "attributes": "{\n\timage: backgroundImage,\n  opacity: backgroundImageOpacity\n}",
                   "id": 6976618,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "image",
+                      "value": "backgroundImage",
+                      "isString": false,
+                      "type": "Identifier"
+                    },
+                    {
+                      "key": "opacity",
+                      "value": "backgroundImageOpacity",
+                      "isString": false,
+                      "type": "Identifier"
+                    }
+                  ]
                 }
               ],
               "id": 4689902,
@@ -463,7 +572,15 @@
           "id": 7573224,
           "isVisible": true,
           "image": "",
-          "name": ""
+          "name": "",
+          "propsArray": [
+            {
+              "key": null,
+              "value": "otherProps",
+              "isString": false,
+              "type": "SpreadElement"
+            }
+          ]
         }
       ],
       "code": "\tconst {\n    color, \n    size, \n    backgroundImage,\n    backgroundImageOpacity,\n    children,\n    // Passed to section element\n    ...otherProps \n  } = props;\n",
@@ -472,7 +589,8 @@
       "description": "",
       "tags": [],
       "nameFormatted": "Section",
-      "modulePath": "components/Section"
+      "nameStyleModule": "SectionComponent",
+      "modulePath": "src/components/Section"
     },
     {
       "type": "component",
@@ -515,7 +633,27 @@
                           "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  // value from 1-6\n  size: 1\n}",
                           "id": 2326079,
                           "isVisible": true,
-                          "children": []
+                          "children": [],
+                          "propsArray": [
+                            {
+                              "key": "title",
+                              "value": "props.title",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "subtitle",
+                              "value": "props.subtitle",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "size",
+                              "value": "1",
+                              "isString": false,
+                              "type": "NumericLiteral"
+                            }
+                          ]
                         },
                         {
                           "type": "instance",
@@ -531,7 +669,27 @@
                             }
                           ],
                           "id": 9572835,
-                          "isVisible": true
+                          "isVisible": true,
+                          "propsArray": [
+                            {
+                              "key": "parentColor",
+                              "value": "props.color",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "size",
+                              "value": "medium",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "onClick",
+                              "value": "props.buttonOnClick",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            }
+                          ]
                         }
                       ],
                       "id": 6733235,
@@ -540,7 +698,8 @@
                       "image": "",
                       "name": "",
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     },
                     {
                       "type": "element",
@@ -556,7 +715,8 @@
                       "image": "",
                       "classNameExpressions": [],
                       "style": "",
-                      "children": []
+                      "children": [],
+                      "propsArray": []
                     },
                     {
                       "type": "element",
@@ -583,7 +743,21 @@
                               "classNames": [],
                               "classNameExpressions": [],
                               "style": "",
-                              "children": []
+                              "children": [],
+                              "propsArray": [
+                                {
+                                  "key": "src",
+                                  "value": "props.image",
+                                  "isString": false,
+                                  "type": "MemberExpression"
+                                },
+                                {
+                                  "key": "alt",
+                                  "value": "Illustration",
+                                  "isString": true,
+                                  "type": "StringLiteral"
+                                }
+                              ]
                             }
                           ],
                           "style": "margin: 0 auto;\nmax-width: 570px;",
@@ -592,7 +766,8 @@
                           "attributes": "{\n\n}",
                           "image": "",
                           "name": "",
-                          "classNameExpressions": []
+                          "classNameExpressions": [],
+                          "propsArray": []
                         }
                       ],
                       "id": 6527102,
@@ -601,7 +776,8 @@
                       "image": "",
                       "name": "",
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     }
                   ],
                   "id": 3243841,
@@ -610,7 +786,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 }
               ],
               "id": 580002,
@@ -619,11 +796,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 8181092,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "tags": [
@@ -635,7 +827,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "HeroSection",
-      "modulePath": "components/HeroSection"
+      "nameStyleModule": "HeroSection",
+      "modulePath": "src/components/HeroSection"
     },
     {
       "type": "component",
@@ -694,7 +887,15 @@
           "isVisible": true,
           "image": "",
           "name": "",
-          "style": ""
+          "style": "",
+          "propsArray": [
+            {
+              "key": null,
+              "value": "otherProps",
+              "isString": false,
+              "type": "SpreadElement"
+            }
+          ]
         }
       ],
       "description": "A button whose color is determined by the background color of its parent component (passed in via `parentColor` prop).",
@@ -703,7 +904,8 @@
       "nameLibrary": "",
       "tags": [],
       "nameFormatted": "SectionButton",
-      "modulePath": "components/SectionButton"
+      "nameStyleModule": "SectionButton",
+      "modulePath": "src/components/SectionButton"
     },
     {
       "type": "component",
@@ -760,7 +962,8 @@
                       "attributes": "{\n\n}",
                       "image": "",
                       "name": "",
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     }
                   ],
                   "isVisible": true
@@ -797,7 +1000,8 @@
                       "attributes": "{\n\n}",
                       "image": "",
                       "name": "",
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     }
                   ],
                   "id": 4428299,
@@ -818,7 +1022,8 @@
               "isVisible": true,
               "attributes": "{\n\n}",
               "image": "",
-              "classNames": []
+              "classNames": [],
+              "propsArray": []
             }
           ],
           "isVisible": true
@@ -830,7 +1035,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "SectionHeader",
-      "modulePath": "components/SectionHeader"
+      "nameStyleModule": "SectionHeader",
+      "modulePath": "src/components/SectionHeader"
     },
     {
       "type": "component",
@@ -848,7 +1054,15 @@
           "name": "",
           "classNames": [],
           "classNameExpressions": [],
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "style",
+              "value": "{\n  '--image': `url(${props.image})`,\n  '--opacity': props.opacity\n}",
+              "isString": false,
+              "type": "ObjectExpression"
+            }
+          ]
         }
       ],
       "isVisible": true,
@@ -857,7 +1071,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "BackgroundImage",
-      "modulePath": "components/BackgroundImage"
+      "nameStyleModule": "BackgroundImage",
+      "modulePath": "src/components/BackgroundImage"
     },
     {
       "type": "component",
@@ -882,7 +1097,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 8194712,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 },
                 {
                   "type": "instance",
@@ -890,7 +1131,15 @@
                   "attributes": "{\n  items: [\n    {\n      name: 'Instagram',\n      image: \"https://uploads.divjoy.com/logo-instagram.svg\",\n      width: \"150px\",\n    },\n    {\n      name: 'Slack',\n      image: \"https://uploads.divjoy.com/logo-slack.svg\",\n      width: \"135px\"\n    },\n    {\n      name: 'Tinder',\n      image: \"https://uploads.divjoy.com/logo-tinder.svg\",\n      width: \"90px\"\n    },\n    {\n      name: 'Spotify',\n      image: \"https://uploads.divjoy.com/logo-spotify.svg\",\n      width: \"135px\"\n    }\n  ]\n}",
                   "id": 8708010,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "items",
+                      "value": "[\n  {\n    name: 'Instagram',\n    image: \"https://uploads.divjoy.com/logo-instagram.svg\",\n    width: \"150px\",\n  },\n  {\n    name: 'Slack',\n    image: \"https://uploads.divjoy.com/logo-slack.svg\",\n    width: \"135px\"\n  },\n  {\n    name: 'Tinder',\n    image: \"https://uploads.divjoy.com/logo-tinder.svg\",\n    width: \"90px\"\n  },\n  {\n    name: 'Spotify',\n    image: \"https://uploads.divjoy.com/logo-spotify.svg\",\n    width: \"135px\"\n  }\n]",
+                      "isString": false,
+                      "type": "ArrayExpression"
+                    }
+                  ]
                 }
               ],
               "id": 2018945,
@@ -899,11 +1148,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 1636201,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "tags": [
@@ -915,7 +1179,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "ClientsSection",
-      "modulePath": "components/ClientsSection"
+      "nameStyleModule": "ClientsSection",
+      "modulePath": "src/components/ClientsSection"
     },
     {
       "type": "component",
@@ -962,7 +1227,27 @@
                           "classNames": [],
                           "classNameExpressions": [],
                           "style": "",
-                          "children": []
+                          "children": [],
+                          "propsArray": [
+                            {
+                              "key": "src",
+                              "value": "item.image",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "width",
+                              "value": "item.width",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "alt",
+                              "value": "item.name",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            }
+                          ]
                         }
                       ],
                       "name": "Logo",
@@ -971,7 +1256,8 @@
                       "attributes": "{\n\n}",
                       "image": "",
                       "classNames": [],
-                      "classNameExpressions": []
+                      "classNameExpressions": [],
+                      "propsArray": []
                     }
                   ],
                   "attributes": "{\n  key: index\n}",
@@ -980,7 +1266,15 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": [
+                    {
+                      "key": "key",
+                      "value": "index",
+                      "isString": false,
+                      "type": "Identifier"
+                    }
+                  ]
                 }
               ],
               "id": 2176993,
@@ -994,7 +1288,8 @@
           "image": "",
           "name": "",
           "classNameExpressions": [],
-          "style": ""
+          "style": "",
+          "propsArray": []
         }
       ],
       "isVisible": true,
@@ -1003,7 +1298,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "Clients",
-      "modulePath": "components/Clients"
+      "nameStyleModule": "Clients",
+      "modulePath": "src/components/Clients"
     },
     {
       "type": "component",
@@ -1028,7 +1324,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 5566068,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 },
                 {
                   "type": "instance",
@@ -1036,7 +1358,15 @@
                   "attributes": "{\n  items: [\n    {\n      title: \"Explore\",\n      description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n      image: \"https://uploads.divjoy.com/undraw-mind_map_cwng.svg\"\n    },\n    {\n      title: \"Explore\",\n      description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n      image: \"https://uploads.divjoy.com/undraw-personal_settings_kihd.svg\"\n    },\n    {\n      title: \"Explore\",\n      description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n      image: \"https://uploads.divjoy.com/undraw-having_fun_iais.svg\"\n    },\n    {\n      title: \"Explore\",\n      description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n      image: \"https://uploads.divjoy.com/undraw-balloons_vxx5.svg\"\n    }\n  ]\n}",
                   "id": 753221,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "items",
+                      "value": "[\n  {\n    title: \"Explore\",\n    description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n    image: \"https://uploads.divjoy.com/undraw-mind_map_cwng.svg\"\n  },\n  {\n    title: \"Explore\",\n    description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n    image: \"https://uploads.divjoy.com/undraw-personal_settings_kihd.svg\"\n  },\n  {\n    title: \"Explore\",\n    description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n    image: \"https://uploads.divjoy.com/undraw-having_fun_iais.svg\"\n  },\n  {\n    title: \"Explore\",\n    description: \"Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus.\",\n    image: \"https://uploads.divjoy.com/undraw-balloons_vxx5.svg\"\n  }\n]",
+                      "isString": false,
+                      "type": "ArrayExpression"
+                    }
+                  ]
                 }
               ],
               "id": 2630198,
@@ -1045,11 +1375,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 7879233,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1061,7 +1406,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "FeaturesSection",
-      "modulePath": "components/FeaturesSection"
+      "nameStyleModule": "FeaturesSection",
+      "modulePath": "src/components/FeaturesSection"
     },
     {
       "type": "component",
@@ -1123,7 +1469,8 @@
                           "attributes": "{\n\n}",
                           "image": "",
                           "name": "",
-                          "classNameExpressions": []
+                          "classNameExpressions": [],
+                          "propsArray": []
                         },
                         {
                           "type": "element",
@@ -1146,7 +1493,8 @@
                           "image": "",
                           "name": "",
                           "classNameExpressions": [],
-                          "style": ""
+                          "style": "",
+                          "propsArray": []
                         }
                       ],
                       "id": 836366,
@@ -1155,7 +1503,8 @@
                       "image": "",
                       "name": "",
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     },
                     {
                       "type": "element",
@@ -1182,7 +1531,21 @@
                               "classNames": [],
                               "classNameExpressions": [],
                               "style": "",
-                              "children": []
+                              "children": [],
+                              "propsArray": [
+                                {
+                                  "key": "src",
+                                  "value": "item.image",
+                                  "isString": false,
+                                  "type": "MemberExpression"
+                                },
+                                {
+                                  "key": "alt",
+                                  "value": "item.title",
+                                  "isString": false,
+                                  "type": "MemberExpression"
+                                }
+                              ]
                             }
                           ],
                           "id": 2009629,
@@ -1191,7 +1554,8 @@
                           "attributes": "{\n\n}",
                           "image": "",
                           "name": "",
-                          "classNameExpressions": []
+                          "classNameExpressions": [],
+                          "propsArray": []
                         }
                       ],
                       "id": 5005051,
@@ -1200,7 +1564,8 @@
                       "image": "",
                       "name": "",
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     }
                   ],
                   "id": 7839467,
@@ -1208,7 +1573,15 @@
                   "isVisible": true,
                   "image": "",
                   "name": "",
-                  "classNameExpressions": []
+                  "classNameExpressions": [],
+                  "propsArray": [
+                    {
+                      "key": "key",
+                      "value": "index",
+                      "isString": false,
+                      "type": "Identifier"
+                    }
+                  ]
                 }
               ],
               "id": 426775,
@@ -1222,7 +1595,8 @@
           "image": "",
           "name": "",
           "classNames": [],
-          "classNameExpressions": []
+          "classNameExpressions": [],
+          "propsArray": []
         }
       ],
       "isVisible": true,
@@ -1231,7 +1605,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "Features",
-      "modulePath": "components/Features"
+      "nameStyleModule": "Features",
+      "modulePath": "src/components/Features"
     },
     {
       "type": "component",
@@ -1256,7 +1631,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 5825807,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 },
                 {
                   "type": "instance",
@@ -1264,7 +1665,15 @@
                   "attributes": "{\n  items: [\n    {\n      avatar: 'https://uploads.divjoy.com/pravatar-150x-5.jpeg',\n      name: 'Sarah Kline',\n      bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.',\n      company: \"Company\"\n    },\n    {\n      avatar: 'https://uploads.divjoy.com/pravatar-150x-48.jpeg',\n      name: 'Shawna Murray',\n      role: 'Software Engineer',\n      bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!',\n      company: \"Company\"\n    },\n    {\n      avatar: 'https://uploads.divjoy.com/pravatar-150x-12.jpeg',\n      name: 'Blake Elder',\n      role: 'Designer',\n      bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae.',\n      company: \"Company\"\n    }\n  ]\n}",
                   "id": 5346966,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "items",
+                      "value": "[\n  {\n    avatar: 'https://uploads.divjoy.com/pravatar-150x-5.jpeg',\n    name: 'Sarah Kline',\n    bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.',\n    company: \"Company\"\n  },\n  {\n    avatar: 'https://uploads.divjoy.com/pravatar-150x-48.jpeg',\n    name: 'Shawna Murray',\n    role: 'Software Engineer',\n    bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!',\n    company: \"Company\"\n  },\n  {\n    avatar: 'https://uploads.divjoy.com/pravatar-150x-12.jpeg',\n    name: 'Blake Elder',\n    role: 'Designer',\n    bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae.',\n    company: \"Company\"\n  }\n]",
+                      "isString": false,
+                      "type": "ArrayExpression"
+                    }
+                  ]
                 }
               ],
               "id": 9651265,
@@ -1273,11 +1682,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 1543239,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1288,7 +1712,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "TestimonialsSection",
-      "modulePath": "components/TestimonialsSection"
+      "nameStyleModule": "TestimonialsSection",
+      "modulePath": "src/components/TestimonialsSection"
     },
     {
       "type": "component",
@@ -1343,7 +1768,27 @@
                                   "attributes": "{\n\timage: item.avatar,\n  size: 96,\n  alt: item.name\n}",
                                   "id": 2381070,
                                   "isVisible": true,
-                                  "children": []
+                                  "children": [],
+                                  "propsArray": [
+                                    {
+                                      "key": "image",
+                                      "value": "item.avatar",
+                                      "isString": false,
+                                      "type": "MemberExpression"
+                                    },
+                                    {
+                                      "key": "size",
+                                      "value": "96",
+                                      "isString": false,
+                                      "type": "NumericLiteral"
+                                    },
+                                    {
+                                      "key": "alt",
+                                      "value": "item.name",
+                                      "isString": false,
+                                      "type": "MemberExpression"
+                                    }
+                                  ]
                                 }
                               ],
                               "id": 3316611,
@@ -1351,7 +1796,8 @@
                               "attributes": "{\n\n}",
                               "image": "",
                               "classNames": [],
-                              "classNameExpressions": []
+                              "classNameExpressions": [],
+                              "propsArray": []
                             },
                             {
                               "type": "element",
@@ -1372,7 +1818,8 @@
                               "attributes": "{\n\n}",
                               "image": "",
                               "classNames": [],
-                              "classNameExpressions": []
+                              "classNameExpressions": [],
+                              "propsArray": []
                             },
                             {
                               "type": "element",
@@ -1401,7 +1848,8 @@
                                   "attributes": "{\n\n}",
                                   "image": "",
                                   "classNameExpressions": [],
-                                  "style": ""
+                                  "style": "",
+                                  "propsArray": []
                                 },
                                 {
                                   "type": "element",
@@ -1425,7 +1873,8 @@
                                   "isVisible": true,
                                   "attributes": "{\n\n}",
                                   "image": "",
-                                  "classNameExpressions": []
+                                  "classNameExpressions": [],
+                                  "propsArray": []
                                 }
                               ],
                               "id": 7396980,
@@ -1433,7 +1882,8 @@
                               "attributes": "{\n\n}",
                               "image": "",
                               "classNames": [],
-                              "classNameExpressions": []
+                              "classNameExpressions": [],
+                              "propsArray": []
                             }
                           ],
                           "id": 987401,
@@ -1441,7 +1891,8 @@
                           "attributes": "{\n\n}",
                           "image": "",
                           "name": "",
-                          "classNameExpressions": []
+                          "classNameExpressions": [],
+                          "propsArray": []
                         }
                       ],
                       "id": 3219495,
@@ -1449,7 +1900,8 @@
                       "attributes": "{\n\n}",
                       "image": "",
                       "name": "",
-                      "classNameExpressions": []
+                      "classNameExpressions": [],
+                      "propsArray": []
                     }
                   ],
                   "id": 8349892,
@@ -1458,7 +1910,15 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": [
+                    {
+                      "key": "key",
+                      "value": "index",
+                      "isString": false,
+                      "type": "Identifier"
+                    }
+                  ]
                 }
               ],
               "id": 9087936,
@@ -1469,7 +1929,8 @@
           ],
           "id": 6131369,
           "isVisible": true,
-          "attributes": "{\n\n}"
+          "attributes": "{\n\n}",
+          "propsArray": []
         }
       ],
       "isVisible": true,
@@ -1478,7 +1939,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "Testimonials",
-      "modulePath": "components/Testimonials"
+      "nameStyleModule": "Testimonials",
+      "modulePath": "src/components/Testimonials"
     },
     {
       "type": "component",
@@ -1509,7 +1971,8 @@
           "image": "",
           "name": "",
           "classNameExpressions": [],
-          "style": ""
+          "style": "",
+          "propsArray": []
         }
       ],
       "isVisible": true,
@@ -1518,7 +1981,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "CenteredColumns",
-      "modulePath": "components/CenteredColumns"
+      "nameStyleModule": "CenteredColumns",
+      "modulePath": "src/components/CenteredColumns"
     },
     {
       "type": "component",
@@ -1553,7 +2017,27 @@
               "name": "",
               "classNameExpressions": [],
               "style": "",
-              "children": []
+              "children": [],
+              "propsArray": [
+                {
+                  "key": "src",
+                  "value": "image",
+                  "isString": false,
+                  "type": "Identifier"
+                },
+                {
+                  "key": "alt",
+                  "value": "alt",
+                  "isString": false,
+                  "type": "Identifier"
+                },
+                {
+                  "key": null,
+                  "value": "otherProps",
+                  "isString": false,
+                  "type": "SpreadElement"
+                }
+              ]
             }
           ],
           "id": 3545177,
@@ -1561,7 +2045,8 @@
           "attributes": "{\n\n}",
           "image": "",
           "name": "",
-          "style": ""
+          "style": "",
+          "propsArray": []
         }
       ],
       "code": "\tconst { image, size, alt, ...otherProps } = props;\n",
@@ -1570,7 +2055,8 @@
       "description": "",
       "tags": [],
       "nameFormatted": "Avatar",
-      "modulePath": "components/Avatar"
+      "nameStyleModule": "Avatar",
+      "modulePath": "src/components/Avatar"
     },
     {
       "type": "component",
@@ -1613,7 +2099,21 @@
                           "classNames": [],
                           "classNameExpressions": [],
                           "style": "",
-                          "children": []
+                          "children": [],
+                          "propsArray": [
+                            {
+                              "key": "src",
+                              "value": "props.logo",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "alt",
+                              "value": "Logo",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            }
+                          ]
                         }
                       ],
                       "id": 4753230,
@@ -1622,7 +2122,15 @@
                       "name": "",
                       "classNames": [],
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": [
+                        {
+                          "key": "href",
+                          "value": "/",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        }
+                      ]
                     }
                   ],
                   "id": 6328584,
@@ -1631,7 +2139,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 },
                 {
                   "type": "element",
@@ -1660,7 +2169,15 @@
                       "name": "",
                       "classNames": [],
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": [
+                        {
+                          "key": "href",
+                          "value": "/about",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        }
+                      ]
                     },
                     {
                       "type": "element",
@@ -1681,7 +2198,15 @@
                       "name": "",
                       "classNames": [],
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": [
+                        {
+                          "key": "href",
+                          "value": "/faq",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        }
+                      ]
                     },
                     {
                       "type": "element",
@@ -1702,7 +2227,15 @@
                       "name": "",
                       "classNames": [],
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": [
+                        {
+                          "key": "href",
+                          "value": "/contact",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        }
+                      ]
                     },
                     {
                       "type": "element",
@@ -1723,7 +2256,27 @@
                       "name": "",
                       "classNames": [],
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": [
+                        {
+                          "key": "target",
+                          "value": "_blank",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "href",
+                          "value": "https://medium.com",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "rel",
+                          "value": "noopener noreferrer",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        }
+                      ]
                     }
                   ],
                   "id": 847974,
@@ -1732,7 +2285,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 },
                 {
                   "type": "element",
@@ -1767,7 +2321,8 @@
                               "name": "",
                               "classNameExpressions": [],
                               "style": "",
-                              "children": []
+                              "children": [],
+                              "propsArray": []
                             }
                           ],
                           "id": 3994074,
@@ -1776,7 +2331,8 @@
                           "image": "",
                           "name": "",
                           "classNameExpressions": [],
-                          "style": ""
+                          "style": "",
+                          "propsArray": []
                         }
                       ],
                       "attributes": "{\n\thref: 'https://twitter.com',\n\ttarget: '_blank',\n  rel: 'noopener noreferrer'\n}",
@@ -1786,7 +2342,27 @@
                       "name": "",
                       "classNames": [],
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": [
+                        {
+                          "key": "href",
+                          "value": "https://twitter.com",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "target",
+                          "value": "_blank",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "rel",
+                          "value": "noopener noreferrer",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        }
+                      ]
                     },
                     {
                       "type": "element",
@@ -1813,7 +2389,8 @@
                               "name": "",
                               "classNameExpressions": [],
                               "style": "",
-                              "children": []
+                              "children": [],
+                              "propsArray": []
                             }
                           ],
                           "id": 3232684,
@@ -1822,7 +2399,8 @@
                           "image": "",
                           "name": "",
                           "classNameExpressions": [],
-                          "style": ""
+                          "style": "",
+                          "propsArray": []
                         }
                       ],
                       "attributes": "{\n\thref: 'https://facebook.com',\n\ttarget: '_blank',\n  rel: 'noopener noreferrer'\n}",
@@ -1832,7 +2410,27 @@
                       "name": "",
                       "classNames": [],
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": [
+                        {
+                          "key": "href",
+                          "value": "https://facebook.com",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "target",
+                          "value": "_blank",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "rel",
+                          "value": "noopener noreferrer",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        }
+                      ]
                     },
                     {
                       "type": "element",
@@ -1859,7 +2457,8 @@
                               "name": "",
                               "classNameExpressions": [],
                               "style": "",
-                              "children": []
+                              "children": [],
+                              "propsArray": []
                             }
                           ],
                           "id": 2925991,
@@ -1868,7 +2467,8 @@
                           "image": "",
                           "name": "",
                           "classNameExpressions": [],
-                          "style": ""
+                          "style": "",
+                          "propsArray": []
                         }
                       ],
                       "attributes": "{\n\thref: 'https://instagram.com',\n\ttarget: '_blank',\n  rel: 'noopener noreferrer'\n}",
@@ -1878,7 +2478,27 @@
                       "name": "",
                       "classNames": [],
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": [
+                        {
+                          "key": "href",
+                          "value": "https://instagram.com",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "target",
+                          "value": "_blank",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "rel",
+                          "value": "noopener noreferrer",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        }
+                      ]
                     }
                   ],
                   "id": 617938,
@@ -1887,7 +2507,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 },
                 {
                   "type": "element",
@@ -1911,7 +2532,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 }
               ],
               "style": "display: flex;\nflex-wrap: wrap;\n> div {\n  display: flex;\n  flex: none;\n  justify-content: center;\n  width: 100%;\n  margin-bottom: 24px;\n}\n\n.brand {\n  img {\n    display: block;\n    height: 32px;\n  }\n}\n\n.social {\n  align-items: flex-end;\n}\n\n.social, .links {\n  a {\n    color: inherit;\n    &:hover {\n      opacity: 0.8;\n    }\n\n    &:not(:first-of-type) {\n      margin-left: 20px;\n    }\n  }\n}\n\n// Tablet and up\n@media screen and (min-width: 769px) {\n  > div {\n    flex: 50%;\n  }\n\n  .left {\n    justify-content: flex-start;\n  }\n\n  .right {\n    justify-content: flex-end;\n  }\n  \n  // Move links to end (bottom right)\n  // Swaps position with social\n  .links {\n    order: 1;\n  }\n}",
@@ -1920,11 +2542,26 @@
               "attributes": "{\n\n}",
               "image": "",
               "name": "",
-              "classNameExpressions": []
+              "classNameExpressions": [],
+              "propsArray": []
             }
           ],
           "id": 4337160,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "tags": [
@@ -1936,7 +2573,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "Footer",
-      "modulePath": "components/Footer"
+      "nameStyleModule": "FooterComponent",
+      "modulePath": "src/components/Footer"
     },
     {
       "type": "component",
@@ -1945,10 +2583,54 @@
         {
           "type": "instance",
           "componentId": 7454246,
-          "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n  color: \"white\",\n  // normal, medium, large\n  size: \"medium\",\n  title: \"Your landing page title here\",\n  subtitle: \"This landing page is perfect for showing off your awesome product and driving people to sign up for a paid plan.\",\n  buttonText: \"Get Started\",\n  image: 'https://uploads.divjoy.com/undraw-japan_ubgk.svg',\n  buttonOnClick: () => {\n    router.push('/pricing');\n  }\n}",
+          "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n  color: \"white\",\n  // normal, medium, large\n  size: \"medium\",\n  title: \"To Do App Beta\",\n  subtitle: \"Keep things in order\",\n  buttonText: \"Get Started\",\n  image: 'https://uploads.divjoy.com/undraw-japan_ubgk.svg',\n  buttonOnClick: () => {\n    router.push('/pricing');\n  }\n}",
           "id": 195077,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "medium",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "To Do App Beta",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "Keep things in order",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "Get Started",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "image",
+              "value": "https://uploads.divjoy.com/undraw-japan_ubgk.svg",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonOnClick",
+              "value": "() => {\n  router.push('/pricing');\n}",
+              "isString": false,
+              "type": "ArrowFunctionExpression"
+            }
+          ]
         },
         {
           "type": "instance",
@@ -1956,7 +2638,33 @@
           "attributes": "{\n\t// primary, link, info, success, warning, \n  // danger, white, light, dark, black\n  color: \"light\",\n  // normal, medium, large\n  size: \"normal\",\n  title: \"\",\n  subtitle: \"\"\n}",
           "id": 813240,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "light",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "normal",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         },
         {
           "type": "instance",
@@ -1964,7 +2672,33 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n\tcolor: \"white\",\n  // normal, medium, large\n  size: \"medium\",\n  title: \"Features\",\n  subtitle: \"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.\"\n}",
           "id": 8647187,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "medium",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Features",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         },
         {
           "type": "instance",
@@ -1972,7 +2706,33 @@
           "attributes": "{\n\t// primary, link, info, success, warning, \n  // danger, white, light, dark, black\n  color: \"light\",\n  // normal, medium, large\n  size: \"medium\",\n  title: \"Here's what people are saying\",\n  subtitle: \"\"\n}",
           "id": 5160492,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "light",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "medium",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Here's what people are saying",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         },
         {
           "type": "instance",
@@ -1980,15 +2740,60 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n\tcolor: \"white\",\n  // normal, medium, large\n  size: \"medium\",\n  title: \"Stay in the know\",\n  subtitle: \"Receive our latest articles and feature updates\",\n  buttonText: \"Subscribe\",\n  inputPlaceholder: \"Enter your email\",\n  subscribedMessage: \"You are now subscribed!\"\n}",
           "id": 890301,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "medium",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Stay in the know",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "Receive our latest articles and feature updates",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "Subscribe",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "inputPlaceholder",
+              "value": "Enter your email",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subscribedMessage",
+              "value": "You are now subscribed!",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "id": 1513260,
       "code": "\tconst router = useRouter();\n",
       "isVisible": true,
       "path": "",
-      "nameFormatted": "HomePage",
-      "modulePath": "pages/home"
+      "nameFormatted": "IndexPage",
+      "nameStyleModule": "IndexPage",
+      "modulePath": "src/pages/index"
     },
     {
       "type": "component",
@@ -2002,7 +2807,33 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n\tcolor: \"primary\",\n  // normal, medium, large\n  size: \"large\",\n  title: \"We help you make money\",\n  subtitle: \"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!\"\n}",
           "id": 1322277,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "primary",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "large",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "We help you make money",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam!",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         },
         {
           "type": "instance",
@@ -2010,13 +2841,40 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n\tcolor: \"white\",\n  // normal, medium, large\n  size: \"medium\",\n  title: \"Meet the Team\",\n  subtitle: \"\"\n}",
           "id": 8526933,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "medium",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Meet the Team",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "isVisible": true,
       "code": "",
       "nameFormatted": "AboutPage",
-      "modulePath": "pages/about"
+      "nameStyleModule": "AboutPage",
+      "modulePath": "src/pages/about"
     },
     {
       "type": "component",
@@ -2041,7 +2899,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 2\n}",
                   "id": 578586,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "2",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 }
               ],
               "id": 5744175,
@@ -2050,11 +2934,38 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 9123185,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "backgroundImage",
+              "value": "props.backgroundImage",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "backgroundImageOpacity",
+              "value": "props.backgroundImageOpacity",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2065,7 +2976,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "ContentSection",
-      "modulePath": "components/ContentSection"
+      "nameStyleModule": "ContentSection",
+      "modulePath": "src/components/ContentSection"
     },
     {
       "type": "component",
@@ -2090,7 +3002,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 981326,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 },
                 {
                   "type": "instance",
@@ -2098,7 +3036,15 @@
                   "attributes": "{\n  people: [\n    {\n      avatar: 'https://uploads.divjoy.com/pravatar-150x-68.jpeg',\n      name: 'John Smith',\n      role: 'Software Engineer',\n      bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo.',\n      twitterUrl: 'https://twitter.com',\n      facebookUrl: 'https://facebook.com',\n      linkedinUrl: 'https://linkedin.com'\n    },\n    {\n      avatar: 'https://uploads.divjoy.com/pravatar-150x-35.jpeg',\n      name: 'Lisa Zinn',\n      role: 'Software Engineer',\n      bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam! Labore reprehenderit beatae magnam animi!',\n      twitterUrl: 'https://twitter.com',\n      facebookUrl: 'https://facebook.com',\n      linkedinUrl: 'https://linkedin.com'\n    },\n    {\n      avatar: 'https://uploads.divjoy.com/pravatar-150x-16.jpeg',\n      name: 'Diana Low',\n      role: 'Designer',\n      bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam! Labore reprehenderit beatae magnam animi!',\n      twitterUrl: 'https://twitter.com',\n      facebookUrl: 'https://facebook.com',\n      linkedinUrl: 'https://linkedin.com'\n    }\n  ]\n}",
                   "id": 2949380,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "people",
+                      "value": "[\n  {\n    avatar: 'https://uploads.divjoy.com/pravatar-150x-68.jpeg',\n    name: 'John Smith',\n    role: 'Software Engineer',\n    bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo.',\n    twitterUrl: 'https://twitter.com',\n    facebookUrl: 'https://facebook.com',\n    linkedinUrl: 'https://linkedin.com'\n  },\n  {\n    avatar: 'https://uploads.divjoy.com/pravatar-150x-35.jpeg',\n    name: 'Lisa Zinn',\n    role: 'Software Engineer',\n    bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam! Labore reprehenderit beatae magnam animi!',\n    twitterUrl: 'https://twitter.com',\n    facebookUrl: 'https://facebook.com',\n    linkedinUrl: 'https://linkedin.com'\n  },\n  {\n    avatar: 'https://uploads.divjoy.com/pravatar-150x-16.jpeg',\n    name: 'Diana Low',\n    role: 'Designer',\n    bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae, quas accusantium perferendis sapiente explicabo, corporis totam! Labore reprehenderit beatae magnam animi!',\n    twitterUrl: 'https://twitter.com',\n    facebookUrl: 'https://facebook.com',\n    linkedinUrl: 'https://linkedin.com'\n  }\n]",
+                      "isString": false,
+                      "type": "ArrayExpression"
+                    }
+                  ]
                 }
               ],
               "id": 5420427,
@@ -2107,11 +3053,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 4242966,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2123,7 +3084,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "TeamBiosSection",
-      "modulePath": "components/TeamBiosSection"
+      "nameStyleModule": "TeamBiosSection",
+      "modulePath": "src/components/TeamBiosSection"
     },
     {
       "type": "component",
@@ -2178,7 +3140,27 @@
                                   "attributes": "{\n\timage: person.avatar,\n  size: 128,\n  alt: person.name\n}",
                                   "id": 4474689,
                                   "isVisible": true,
-                                  "children": []
+                                  "children": [],
+                                  "propsArray": [
+                                    {
+                                      "key": "image",
+                                      "value": "person.avatar",
+                                      "isString": false,
+                                      "type": "MemberExpression"
+                                    },
+                                    {
+                                      "key": "size",
+                                      "value": "128",
+                                      "isString": false,
+                                      "type": "NumericLiteral"
+                                    },
+                                    {
+                                      "key": "alt",
+                                      "value": "person.name",
+                                      "isString": false,
+                                      "type": "MemberExpression"
+                                    }
+                                  ]
                                 }
                               ],
                               "id": 2904923,
@@ -2186,7 +3168,8 @@
                               "attributes": "{\n\n}",
                               "image": "",
                               "classNames": [],
-                              "classNameExpressions": []
+                              "classNameExpressions": [],
+                              "propsArray": []
                             },
                             {
                               "type": "element",
@@ -2213,7 +3196,8 @@
                                   "attributes": "{\n\n}",
                                   "image": "",
                                   "classNameExpressions": [],
-                                  "style": ""
+                                  "style": "",
+                                  "propsArray": []
                                 },
                                 {
                                   "type": "element",
@@ -2238,7 +3222,8 @@
                                   "attributes": "{\n\n}",
                                   "image": "",
                                   "classNameExpressions": [],
-                                  "style": ""
+                                  "style": "",
+                                  "propsArray": []
                                 },
                                 {
                                   "type": "element",
@@ -2259,7 +3244,8 @@
                                   "attributes": "{\n\n}",
                                   "image": "",
                                   "classNames": [],
-                                  "classNameExpressions": []
+                                  "classNameExpressions": [],
+                                  "propsArray": []
                                 }
                               ],
                               "name": "Details",
@@ -2269,7 +3255,8 @@
                               "attributes": "{\n\n}",
                               "image": "",
                               "classNames": [],
-                              "classNameExpressions": []
+                              "classNameExpressions": [],
+                              "propsArray": []
                             }
                           ],
                           "style": "flex-direction: column;\nheight: 100%;\npadding: 1.8rem;",
@@ -2278,7 +3265,8 @@
                           "attributes": "{\n\n}",
                           "image": "",
                           "name": "",
-                          "classNameExpressions": []
+                          "classNameExpressions": [],
+                          "propsArray": []
                         }
                       ],
                       "style": "flex-direction: column;",
@@ -2287,7 +3275,8 @@
                       "attributes": "{\n\n}",
                       "image": "",
                       "name": "",
-                      "classNameExpressions": []
+                      "classNameExpressions": [],
+                      "propsArray": []
                     }
                   ],
                   "id": 287490,
@@ -2296,7 +3285,15 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": [
+                    {
+                      "key": "key",
+                      "value": "index",
+                      "isString": false,
+                      "type": "Identifier"
+                    }
+                  ]
                 }
               ],
               "id": 3706765,
@@ -2307,7 +3304,8 @@
           ],
           "id": 99593,
           "isVisible": true,
-          "attributes": "{\n\n}"
+          "attributes": "{\n\n}",
+          "propsArray": []
         }
       ],
       "isVisible": true,
@@ -2316,7 +3314,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "TeamBios",
-      "modulePath": "components/TeamBios"
+      "nameStyleModule": "TeamBios",
+      "modulePath": "src/components/TeamBios"
     },
     {
       "type": "component",
@@ -2388,7 +3387,8 @@
                                   "image": "",
                                   "name": "",
                                   "classNameExpressions": [],
-                                  "style": ""
+                                  "style": "",
+                                  "propsArray": []
                                 },
                                 {
                                   "type": "element",
@@ -2411,7 +3411,8 @@
                                   "image": "",
                                   "name": "",
                                   "classNameExpressions": [],
-                                  "style": ""
+                                  "style": "",
+                                  "propsArray": []
                                 }
                               ],
                               "id": 8254421,
@@ -2420,7 +3421,8 @@
                               "image": "",
                               "name": "",
                               "classNameExpressions": [],
-                              "style": ""
+                              "style": "",
+                              "propsArray": []
                             },
                             {
                               "type": "element",
@@ -2436,7 +3438,39 @@
                                   "id": 6723650,
                                   "attributes": "{\n  parentColor: props.color,\n\tbuttonText: props.buttonText,\n  inputPlaceholder: props.inputPlaceholder,\n  subscribedMessage: props.subscribedMessage,\n\t// small, normal, medium, large\n  size: \"medium\"\n}",
                                   "isVisible": true,
-                                  "children": []
+                                  "children": [],
+                                  "propsArray": [
+                                    {
+                                      "key": "parentColor",
+                                      "value": "props.color",
+                                      "isString": false,
+                                      "type": "MemberExpression"
+                                    },
+                                    {
+                                      "key": "buttonText",
+                                      "value": "props.buttonText",
+                                      "isString": false,
+                                      "type": "MemberExpression"
+                                    },
+                                    {
+                                      "key": "inputPlaceholder",
+                                      "value": "props.inputPlaceholder",
+                                      "isString": false,
+                                      "type": "MemberExpression"
+                                    },
+                                    {
+                                      "key": "subscribedMessage",
+                                      "value": "props.subscribedMessage",
+                                      "isString": false,
+                                      "type": "MemberExpression"
+                                    },
+                                    {
+                                      "key": "size",
+                                      "value": "medium",
+                                      "isString": true,
+                                      "type": "StringLiteral"
+                                    }
+                                  ]
                                 }
                               ],
                               "id": 4936903,
@@ -2445,7 +3479,8 @@
                               "image": "",
                               "name": "",
                               "classNameExpressions": [],
-                              "style": ""
+                              "style": "",
+                              "propsArray": []
                             }
                           ],
                           "id": 3334129,
@@ -2454,7 +3489,8 @@
                           "image": "",
                           "name": "",
                           "classNameExpressions": [],
-                          "style": ""
+                          "style": "",
+                          "propsArray": []
                         }
                       ],
                       "id": 5195628,
@@ -2463,7 +3499,8 @@
                       "image": "",
                       "name": "",
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     }
                   ],
                   "id": 6212138,
@@ -2472,7 +3509,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 }
               ],
               "id": 6031473,
@@ -2481,11 +3519,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 8188011,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "id": 74477,
@@ -2498,7 +3551,8 @@
       "nameLibrary": "",
       "description": "",
       "nameFormatted": "NewsletterSection",
-      "modulePath": "components/NewsletterSection"
+      "nameStyleModule": "NewsletterSection",
+      "modulePath": "src/components/NewsletterSection"
     },
     {
       "type": "component",
@@ -2543,7 +3597,27 @@
                           "name": "",
                           "classNameExpressions": [],
                           "style": "",
-                          "children": []
+                          "children": [],
+                          "propsArray": [
+                            {
+                              "key": "type",
+                              "value": "email",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "placeholder",
+                              "value": "props.inputPlaceholder",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "onChange",
+                              "value": "(event) => setEmail(event.target.value)",
+                              "isString": false,
+                              "type": "ArrowFunctionExpression"
+                            }
+                          ]
                         }
                       ],
                       "id": 5348542,
@@ -2552,7 +3626,8 @@
                       "image": "",
                       "name": "",
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     },
                     {
                       "type": "element",
@@ -2575,7 +3650,27 @@
                             }
                           ],
                           "id": 7377433,
-                          "isVisible": true
+                          "isVisible": true,
+                          "propsArray": [
+                            {
+                              "key": "parentColor",
+                              "value": "props.parentColor",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "size",
+                              "value": "props.size",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "onClick",
+                              "value": "props.buttonOnClick",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            }
+                          ]
                         }
                       ],
                       "id": 568525,
@@ -2584,7 +3679,8 @@
                       "image": "",
                       "name": "",
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     }
                   ],
                   "id": 4088219,
@@ -2593,7 +3689,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 }
               ],
               "id": 9147691,
@@ -2602,7 +3699,15 @@
               "name": "",
               "classNames": [],
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": [
+                {
+                  "key": "onSubmit",
+                  "value": "(e) => {\n  e.preventDefault();\n  handleSubmit();\n}",
+                  "isString": false,
+                  "type": "ArrowFunctionExpression"
+                }
+              ]
             }
           ],
           "id": 2699611,
@@ -2631,7 +3736,8 @@
       "description": "",
       "tags": [],
       "nameFormatted": "Newsletter",
-      "modulePath": "components/Newsletter"
+      "nameStyleModule": "Newsletter",
+      "modulePath": "src/components/Newsletter"
     },
     {
       "type": "component",
@@ -2645,13 +3751,40 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n\tcolor: \"white\",\n  // normal, medium, large\n  size: \"medium\",\n\ttitle: \"Frequently Asked Questions\",\n  subtitle: \"\"\n}",
           "id": 2798265,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "medium",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Frequently Asked Questions",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "isVisible": true,
       "code": "",
       "nameFormatted": "FaqPage",
-      "modulePath": "pages/faq"
+      "nameStyleModule": "FaqPage",
+      "modulePath": "src/pages/faq"
     },
     {
       "type": "component",
@@ -2676,7 +3809,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 4849694,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 },
                 {
                   "type": "instance",
@@ -2684,7 +3843,15 @@
                   "attributes": "{\n  items: [\n    {\n      question: 'Integer ornare neque mauris?',\n      answer: 'Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.'\n    },\n    {\n      question: 'Lorem ipsum dolor sit amet?',\n      answer: 'Nunc nulla mauris, laoreet vel cursus lacinia, consectetur sit amet tellus. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.'\n    },\n    {\n      question: 'Suspendisse ut tincidunt?',\n      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, metus et mattis ullamcorper. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.'\n    },\n    {\n      question: 'Ut enim ad minim veniam?',\n      answer: 'Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.'\n    },\n    {\n      question: 'In velit mi, rhoncus dictum neque?',\n      answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.'\n    }\n  ]\n}",
                   "id": 8641436,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "items",
+                      "value": "[\n  {\n    question: 'Integer ornare neque mauris?',\n    answer: 'Integer ornare neque mauris, ac vulputate lacus venenatis et. Pellentesque ut ultrices purus. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.'\n  },\n  {\n    question: 'Lorem ipsum dolor sit amet?',\n    answer: 'Nunc nulla mauris, laoreet vel cursus lacinia, consectetur sit amet tellus. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.'\n  },\n  {\n    question: 'Suspendisse ut tincidunt?',\n    answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lobortis, metus et mattis ullamcorper. Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.'\n  },\n  {\n    question: 'Ut enim ad minim veniam?',\n    answer: 'Suspendisse ut tincidunt eros. In velit mi, rhoncus dictum neque a, tincidunt lobortis justo.'\n  },\n  {\n    question: 'In velit mi, rhoncus dictum neque?',\n    answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.'\n  }\n]",
+                      "isString": false,
+                      "type": "ArrayExpression"
+                    }
+                  ]
                 }
               ],
               "id": 1107442,
@@ -2693,11 +3860,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 3382393,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2709,7 +3891,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "FaqSection",
-      "modulePath": "components/FaqSection"
+      "nameStyleModule": "FaqSection",
+      "modulePath": "src/components/FaqSection"
     },
     {
       "type": "component",
@@ -2727,7 +3910,27 @@
               "attributes": "{\n\tquestion: item.question,\n  answer: item.answer,\n  key: index\n}",
               "id": 3188134,
               "isVisible": true,
-              "children": []
+              "children": [],
+              "propsArray": [
+                {
+                  "key": "question",
+                  "value": "item.question",
+                  "isString": false,
+                  "type": "MemberExpression"
+                },
+                {
+                  "key": "answer",
+                  "value": "item.answer",
+                  "isString": false,
+                  "type": "MemberExpression"
+                },
+                {
+                  "key": "key",
+                  "value": "index",
+                  "isString": false,
+                  "type": "Identifier"
+                }
+              ]
             }
           ],
           "id": 3564997,
@@ -2742,7 +3945,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "Faq",
-      "modulePath": "components/Faq"
+      "nameStyleModule": "Faq",
+      "modulePath": "src/components/Faq"
     },
     {
       "type": "component",
@@ -2800,7 +4004,8 @@
                       "image": "",
                       "name": "",
                       "style": "",
-                      "children": []
+                      "children": [],
+                      "propsArray": []
                     }
                   ],
                   "style": "margin-right: 1rem;",
@@ -2809,7 +4014,8 @@
                   "attributes": "{\n\n}",
                   "image": "",
                   "name": "",
-                  "classNameExpressions": []
+                  "classNameExpressions": [],
+                  "propsArray": []
                 },
                 {
                   "type": "text",
@@ -2825,7 +4031,8 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             },
             {
               "type": "if",
@@ -2852,7 +4059,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 }
               ],
               "id": 9458739,
@@ -2864,7 +4072,15 @@
           "image": "",
           "name": "",
           "classNames": [],
-          "classNameExpressions": []
+          "classNameExpressions": [],
+          "propsArray": [
+            {
+              "key": "onClick",
+              "value": "() => setExpanded(!expanded)",
+              "isString": false,
+              "type": "ArrowFunctionExpression"
+            }
+          ]
         }
       ],
       "isVisible": true,
@@ -2872,7 +4088,8 @@
       "description": "",
       "tags": [],
       "nameFormatted": "FaqItem",
-      "modulePath": "components/FaqItem"
+      "nameStyleModule": "FaqItem",
+      "modulePath": "src/components/FaqItem"
     },
     {
       "type": "component",
@@ -2897,7 +4114,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 4598409,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 },
                 {
                   "type": "instance",
@@ -2905,7 +4148,27 @@
                   "attributes": "{\n  // text on button\n  buttonText: 'Choose',\n  // callback when plan chosen (button clicked)\n  onChoosePlan: (planId) => {\n    // Add your own payments logic here\n  \talert(`You chose the plan \"${planId}\"`);\n  },\n  items: [\n    {  \n      id: 'monthly',\n      timespan: \"Monthly\",\n      price: \"29\",\n      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam.'\n    },\n    {  \n      id: 'yearly',\n      timespan: \"Yearly\",\n      price: \"19\",\n      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae.'\n    }\n  ]\n}",
                   "id": 2641926,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "buttonText",
+                      "value": "Choose",
+                      "isString": true,
+                      "type": "StringLiteral"
+                    },
+                    {
+                      "key": "onChoosePlan",
+                      "value": "(planId) => {\n  // Add your own payments logic here\n  alert(`You chose the plan \"${planId}\"`);\n}",
+                      "isString": false,
+                      "type": "ArrowFunctionExpression"
+                    },
+                    {
+                      "key": "items",
+                      "value": "[\n  {  \n    id: 'monthly',\n    timespan: \"Monthly\",\n    price: \"29\",\n    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam.'\n  },\n  {  \n    id: 'yearly',\n    timespan: \"Yearly\",\n    price: \"19\",\n    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consequatur numquam aliquam tenetur ad amet inventore hic beatae.'\n  }\n]",
+                      "isString": false,
+                      "type": "ArrayExpression"
+                    }
+                  ]
                 }
               ],
               "style": "max-width: 800px;",
@@ -2914,11 +4177,32 @@
               "attributes": "{\n\n}",
               "image": "",
               "name": "",
-              "classNameExpressions": []
+              "classNameExpressions": [],
+              "propsArray": []
             }
           ],
           "id": 6822629,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "id",
+              "value": "pricing",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "tags": [
@@ -2930,7 +4214,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "PricingSection",
-      "modulePath": "components/PricingSection"
+      "nameStyleModule": "PricingSection",
+      "modulePath": "src/components/PricingSection"
     },
     {
       "type": "component",
@@ -2995,7 +4280,8 @@
                               "isVisible": true,
                               "attributes": "{\n\n}",
                               "image": "",
-                              "classNameExpressions": []
+                              "classNameExpressions": [],
+                              "propsArray": []
                             },
                             {
                               "type": "element",
@@ -3026,7 +4312,8 @@
                                   "isVisible": true,
                                   "attributes": "{\n\n}",
                                   "image": "",
-                                  "classNameExpressions": []
+                                  "classNameExpressions": [],
+                                  "propsArray": []
                                 },
                                 {
                                   "type": "element",
@@ -3049,7 +4336,8 @@
                                   "attributes": "{\n\n}",
                                   "image": "",
                                   "classNameExpressions": [],
-                                  "style": ""
+                                  "style": "",
+                                  "propsArray": []
                                 },
                                 {
                                   "type": "element",
@@ -3072,7 +4360,8 @@
                                   "isVisible": true,
                                   "attributes": "{\n\n}",
                                   "image": "",
-                                  "classNameExpressions": []
+                                  "classNameExpressions": [],
+                                  "propsArray": []
                                 }
                               ],
                               "name": "Price",
@@ -3080,7 +4369,8 @@
                               "isVisible": true,
                               "attributes": "{\n\n}",
                               "image": "",
-                              "classNameExpressions": []
+                              "classNameExpressions": [],
+                              "propsArray": []
                             },
                             {
                               "type": "element",
@@ -3101,7 +4391,8 @@
                               "attributes": "{\n\n}",
                               "image": "",
                               "classNames": [],
-                              "classNameExpressions": []
+                              "classNameExpressions": [],
+                              "propsArray": []
                             },
                             {
                               "type": "element",
@@ -3126,7 +4417,15 @@
                               "isVisible": true,
                               "image": "",
                               "name": "",
-                              "classNameExpressions": []
+                              "classNameExpressions": [],
+                              "propsArray": [
+                                {
+                                  "key": "onClick",
+                                  "value": "() => props.onChoosePlan(item.id)",
+                                  "isString": false,
+                                  "type": "ArrowFunctionExpression"
+                                }
+                              ]
                             }
                           ],
                           "style": "// Flex so that button can position self at \n// bottom of card using margin-top auto.\ndisplay: flex;\nflex-direction: column;\n// Stretch to fit column width\nwidth: 100%;\npadding: 2rem;",
@@ -3135,7 +4434,8 @@
                           "attributes": "{\n\n}",
                           "image": "",
                           "name": "",
-                          "classNameExpressions": []
+                          "classNameExpressions": [],
+                          "propsArray": []
                         }
                       ],
                       "style": "display: flex;\n// Stretch to fit column width\nwidth: 100%;\n// Ensure .card-content stretches to fit width\nalign-items: stretch;",
@@ -3151,7 +4451,8 @@
                       "isVisible": true,
                       "attributes": "{\n\n}",
                       "image": "",
-                      "name": ""
+                      "name": "",
+                      "propsArray": []
                     }
                   ],
                   "style": "display: flex;\nalign-items: stretch;",
@@ -3160,7 +4461,15 @@
                   "isVisible": true,
                   "image": "",
                   "name": "",
-                  "classNameExpressions": []
+                  "classNameExpressions": [],
+                  "propsArray": [
+                    {
+                      "key": "key",
+                      "value": "index",
+                      "isString": false,
+                      "type": "Identifier"
+                    }
+                  ]
                 }
               ],
               "id": 3852911,
@@ -3174,7 +4483,8 @@
           "image": "",
           "name": "",
           "classNameExpressions": [],
-          "style": ""
+          "style": "",
+          "propsArray": []
         }
       ],
       "isVisible": true,
@@ -3183,7 +4493,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "Pricing",
-      "modulePath": "components/Pricing"
+      "nameStyleModule": "Pricing",
+      "modulePath": "src/components/Pricing"
     },
     {
       "type": "component",
@@ -3197,13 +4508,40 @@
           "attributes": "{\n\t// primary, link, info, success, warning, \n  // danger, white, light, dark, black\n  color: \"white\",\n  // normal, medium, large\n  size: \"medium\",\n  title: 'Pricing',\n  subtitle: \"\"\n}",
           "id": 6155292,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "medium",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Pricing",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "isVisible": true,
       "code": "",
       "nameFormatted": "PricingPage",
-      "modulePath": "pages/pricing"
+      "nameStyleModule": "PricingPage",
+      "modulePath": "src/pages/pricing"
     },
     {
       "type": "component",
@@ -3242,7 +4580,33 @@
                       "name": "",
                       "classNameExpressions": [],
                       "style": "",
-                      "children": []
+                      "children": [],
+                      "propsArray": [
+                        {
+                          "key": "type",
+                          "value": "props.type",
+                          "isString": false,
+                          "type": "MemberExpression"
+                        },
+                        {
+                          "key": "value",
+                          "value": "props.value",
+                          "isString": false,
+                          "type": "MemberExpression"
+                        },
+                        {
+                          "key": "placeholder",
+                          "value": "props.placeholder",
+                          "isString": false,
+                          "type": "MemberExpression"
+                        },
+                        {
+                          "key": "onChange",
+                          "value": "(e) => props.onChange(e.target.value)",
+                          "isString": false,
+                          "type": "ArrowFunctionExpression"
+                        }
+                      ]
                     }
                   ],
                   "id": 6549474,
@@ -3266,7 +4630,33 @@
                       "name": "",
                       "classNameExpressions": [],
                       "style": "",
-                      "children": []
+                      "children": [],
+                      "propsArray": [
+                        {
+                          "key": "type",
+                          "value": "props.type",
+                          "isString": false,
+                          "type": "MemberExpression"
+                        },
+                        {
+                          "key": "value",
+                          "value": "props.value",
+                          "isString": false,
+                          "type": "MemberExpression"
+                        },
+                        {
+                          "key": "placeholder",
+                          "value": "props.placeholder",
+                          "isString": false,
+                          "type": "MemberExpression"
+                        },
+                        {
+                          "key": "onChange",
+                          "value": "(e) => props.onChange(e.target.value)",
+                          "isString": false,
+                          "type": "ArrowFunctionExpression"
+                        }
+                      ]
                     }
                   ],
                   "id": 6476692,
@@ -3279,7 +4669,8 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             },
             {
               "type": "if",
@@ -3307,7 +4698,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 }
               ],
               "id": 1823889,
@@ -3320,7 +4712,8 @@
           "image": "",
           "name": "",
           "classNameExpressions": [],
-          "style": ""
+          "style": "",
+          "propsArray": []
         }
       ],
       "isVisible": true,
@@ -3329,7 +4722,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "FormField",
-      "modulePath": "components/FormField"
+      "nameStyleModule": "FormField",
+      "modulePath": "src/components/FormField"
     },
     {
       "type": "component",
@@ -3343,13 +4737,52 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n\tcolor: \"white\",\n  // normal, medium, large\n  size: \"medium\",\n\ttitle: \"Contact Us\",\n  subtitle: \"\",\n  showNameField: true,\n  buttonText: \"Send message\"\n}",
           "id": 2665747,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "medium",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Contact Us",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "showNameField",
+              "value": "true",
+              "isString": false,
+              "type": "BooleanLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "Send message",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "isVisible": true,
       "code": "",
       "nameFormatted": "ContactPage",
-      "modulePath": "pages/contact"
+      "nameStyleModule": "ContactPage",
+      "modulePath": "src/pages/contact"
     },
     {
       "type": "component",
@@ -3374,7 +4807,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 4071896,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 },
                 {
                   "type": "instance",
@@ -3382,7 +4841,27 @@
                   "attributes": "{\n  parentColor: props.color,\n  showNameField: props.showNameField,\n  buttonText: props.buttonText,\n}",
                   "id": 8209060,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "parentColor",
+                      "value": "props.color",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "showNameField",
+                      "value": "props.showNameField",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "buttonText",
+                      "value": "props.buttonText",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    }
+                  ]
                 }
               ],
               "style": "max-width: 850px;",
@@ -3391,11 +4870,26 @@
               "attributes": "{\n\n}",
               "image": "",
               "name": "",
-              "classNameExpressions": []
+              "classNameExpressions": [],
+              "propsArray": []
             }
           ],
           "id": 5180594,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "tags": [
@@ -3407,7 +4901,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "ContactSection",
-      "modulePath": "components/ContactSection"
+      "nameStyleModule": "ContactSection",
+      "modulePath": "src/components/ContactSection"
     },
     {
       "type": "component",
@@ -3425,7 +4920,21 @@
               "attributes": "{\n\ttype: props.status.type,\n  message: props.status.message\n}",
               "id": 114896,
               "isVisible": true,
-              "children": []
+              "children": [],
+              "propsArray": [
+                {
+                  "key": "type",
+                  "value": "props.status.type",
+                  "isString": false,
+                  "type": "MemberExpression"
+                },
+                {
+                  "key": "message",
+                  "value": "props.status.message",
+                  "isString": false,
+                  "type": "MemberExpression"
+                }
+              ]
             }
           ],
           "id": 1815689,
@@ -3460,7 +4969,39 @@
                           "attributes": "{\n  value: name,\n  type: 'text',\n  placeholder: 'Name',\n\terror: showErrors && getError('name'),\n  onChange: (value) => setName(value)\n}",
                           "id": 4532532,
                           "isVisible": true,
-                          "children": []
+                          "children": [],
+                          "propsArray": [
+                            {
+                              "key": "value",
+                              "value": "name",
+                              "isString": false,
+                              "type": "Identifier"
+                            },
+                            {
+                              "key": "type",
+                              "value": "text",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "placeholder",
+                              "value": "Name",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "error",
+                              "value": "showErrors && getError('name')",
+                              "isString": false,
+                              "type": "LogicalExpression"
+                            },
+                            {
+                              "key": "onChange",
+                              "value": "(value) => setName(value)",
+                              "isString": false,
+                              "type": "ArrowFunctionExpression"
+                            }
+                          ]
                         }
                       ],
                       "id": 2002727,
@@ -3472,7 +5013,39 @@
                       "attributes": "{\n  value: email,\n  type: 'email',\n  placeholder: 'Email',\n\terror: showErrors && getError('email'),\n  onChange: (value) => setEmail(value)\n}",
                       "id": 6729270,
                       "isVisible": true,
-                      "children": []
+                      "children": [],
+                      "propsArray": [
+                        {
+                          "key": "value",
+                          "value": "email",
+                          "isString": false,
+                          "type": "Identifier"
+                        },
+                        {
+                          "key": "type",
+                          "value": "email",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "placeholder",
+                          "value": "Email",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "error",
+                          "value": "showErrors && getError('email')",
+                          "isString": false,
+                          "type": "LogicalExpression"
+                        },
+                        {
+                          "key": "onChange",
+                          "value": "(value) => setEmail(value)",
+                          "isString": false,
+                          "type": "ArrowFunctionExpression"
+                        }
+                      ]
                     }
                   ],
                   "id": 8382708,
@@ -3481,7 +5054,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 }
               ],
               "id": 365257,
@@ -3490,7 +5064,8 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             },
             {
               "type": "element",
@@ -3513,7 +5088,39 @@
                       "attributes": "{\n  value: message,\n  type: 'textarea',\n  placeholder: 'Message',\n\terror: showErrors && getError('message'),\n  onChange: (value) => setMessage(value)\n}",
                       "id": 8365187,
                       "isVisible": true,
-                      "children": []
+                      "children": [],
+                      "propsArray": [
+                        {
+                          "key": "value",
+                          "value": "message",
+                          "isString": false,
+                          "type": "Identifier"
+                        },
+                        {
+                          "key": "type",
+                          "value": "textarea",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "placeholder",
+                          "value": "Message",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "error",
+                          "value": "showErrors && getError('message')",
+                          "isString": false,
+                          "type": "LogicalExpression"
+                        },
+                        {
+                          "key": "onChange",
+                          "value": "(value) => setMessage(value)",
+                          "isString": false,
+                          "type": "ArrowFunctionExpression"
+                        }
+                      ]
                     }
                   ],
                   "id": 8359098,
@@ -3522,7 +5129,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 }
               ],
               "id": 1359873,
@@ -3531,7 +5139,8 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             },
             {
               "type": "element",
@@ -3576,7 +5185,27 @@
                                 }
                               ],
                               "id": 8423764,
-                              "isVisible": true
+                              "isVisible": true,
+                              "propsArray": [
+                                {
+                                  "key": "parentColor",
+                                  "value": "props.parentColor",
+                                  "isString": false,
+                                  "type": "MemberExpression"
+                                },
+                                {
+                                  "key": "size",
+                                  "value": "medium",
+                                  "isString": true,
+                                  "type": "StringLiteral"
+                                },
+                                {
+                                  "key": "state",
+                                  "value": "props.status && \n  props.status.type === \"pending\" ?\n    'loading' : 'normal'",
+                                  "isString": false,
+                                  "type": "ConditionalExpression"
+                                }
+                              ]
                             }
                           ],
                           "id": 2553172,
@@ -3585,7 +5214,8 @@
                           "image": "",
                           "name": "",
                           "classNameExpressions": [],
-                          "style": ""
+                          "style": "",
+                          "propsArray": []
                         }
                       ],
                       "id": 4119607,
@@ -3594,7 +5224,8 @@
                       "image": "",
                       "name": "",
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     }
                   ],
                   "id": 7385159,
@@ -3603,7 +5234,8 @@
                   "image": "",
                   "name": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 }
               ],
               "id": 3883,
@@ -3612,7 +5244,8 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "attributes": "{\n  onSubmit: (e) => {\n    e.preventDefault();\n    handleSubmit();\n  }\n}",
@@ -3622,7 +5255,15 @@
           "name": "",
           "classNames": [],
           "classNameExpressions": [],
-          "style": ""
+          "style": "",
+          "propsArray": [
+            {
+              "key": "onSubmit",
+              "value": "(e) => {\n  e.preventDefault();\n  handleSubmit();\n}",
+              "isString": false,
+              "type": "ArrowFunctionExpression"
+            }
+          ]
         }
       ],
       "isVisible": true,
@@ -3630,7 +5271,8 @@
       "description": "",
       "tags": [],
       "nameFormatted": "ContactForm",
-      "modulePath": "components/ContactForm"
+      "nameStyleModule": "ContactForm",
+      "modulePath": "src/components/ContactForm"
     },
     {
       "type": "component",
@@ -3644,7 +5286,39 @@
           "attributes": "{\n  parentColor: props.parentColor,\n  showNameField: props.showNameField,\n  buttonText: props.buttonText,\n  onSubmit: onSubmit,\n  status: status\n}",
           "id": 7744584,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "parentColor",
+              "value": "props.parentColor",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "showNameField",
+              "value": "props.showNameField",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "buttonText",
+              "value": "props.buttonText",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "onSubmit",
+              "value": "onSubmit",
+              "isString": false,
+              "type": "Identifier"
+            },
+            {
+              "key": "status",
+              "value": "status",
+              "isString": false,
+              "type": "Identifier"
+            }
+          ]
         }
       ],
       "isVisible": true,
@@ -3652,7 +5326,8 @@
       "description": "",
       "tags": [],
       "nameFormatted": "Contact",
-      "modulePath": "components/Contact"
+      "nameStyleModule": "Contact",
+      "modulePath": "src/components/Contact"
     },
     {
       "type": "component",
@@ -3693,7 +5368,8 @@
           "attributes": "{\n\n}",
           "image": "",
           "name": "",
-          "style": ""
+          "style": "",
+          "propsArray": []
         }
       ],
       "isVisible": true,
@@ -3702,7 +5378,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "FormStatus",
-      "modulePath": "components/FormStatus"
+      "nameStyleModule": "FormStatus",
+      "modulePath": "src/components/FormStatus"
     },
     {
       "type": "component",
@@ -3717,12 +5394,39 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n\tcolor: \"white\",\n  // normal, medium, large\n  size: \"large\",\n  title: \"Dashboard\",\n  subtitle: \"Dashboard components are coming to the Divjoy library soon. For now, you can implement a custom dashboard here after exporting your code.\"\n}",
           "id": 8433171,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "large",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Dashboard",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "Dashboard components are coming to the Divjoy library soon. For now, you can implement a custom dashboard here after exporting your code.",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "isVisible": true,
       "nameFormatted": "DashboardPage",
-      "modulePath": "pages/dashboard"
+      "nameStyleModule": "DashboardPage",
+      "modulePath": "src/pages/dashboard"
     },
     {
       "type": "component",
@@ -3747,7 +5451,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 6816971,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 }
               ],
               "id": 4452922,
@@ -3756,11 +5486,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 368304,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "isVisible": true,
@@ -3769,7 +5514,8 @@
       "tags": [],
       "code": "",
       "nameFormatted": "DashboardSection",
-      "modulePath": "components/DashboardSection"
+      "nameStyleModule": "DashboardSection",
+      "modulePath": "src/components/DashboardSection"
     },
     {
       "type": "component",
@@ -3783,13 +5529,46 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n  color: \"white\",\n  // normal, medium, large\n  size: \"large\",\n\ttitle: \"Welcome back\",\n  subtitle: \"\",\n  buttonText: \"Sign in\",\n}",
           "id": 6038296,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "large",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Welcome back",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "Sign in",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "isVisible": true,
       "code": "",
       "nameFormatted": "SigninPage",
-      "modulePath": "pages/signin"
+      "nameStyleModule": "SigninPage",
+      "modulePath": "src/pages/signin"
     },
     {
       "type": "component",
@@ -3811,7 +5590,21 @@
                   "attributes": "{\n\ttype: props.status.type,\n  message: props.status.message\n}",
                   "id": 5710328,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "type",
+                      "value": "props.status.type",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "message",
+                      "value": "props.status.message",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    }
+                  ]
                 }
               ],
               "id": 5805610,
@@ -3831,7 +5624,39 @@
                       "attributes": "{\n  value: email,\n  type: 'email',\n  placeholder: 'Email',\n\terror: showErrors && getError('email'),\n  onChange: (value) => setEmail(value)\n}",
                       "id": 7961212,
                       "isVisible": true,
-                      "children": []
+                      "children": [],
+                      "propsArray": [
+                        {
+                          "key": "value",
+                          "value": "email",
+                          "isString": false,
+                          "type": "Identifier"
+                        },
+                        {
+                          "key": "type",
+                          "value": "email",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "placeholder",
+                          "value": "Email",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "error",
+                          "value": "showErrors && getError('email')",
+                          "isString": false,
+                          "type": "LogicalExpression"
+                        },
+                        {
+                          "key": "onChange",
+                          "value": "(value) => setEmail(value)",
+                          "isString": false,
+                          "type": "ArrowFunctionExpression"
+                        }
+                      ]
                     }
                   ],
                   "id": 9069362,
@@ -3847,7 +5672,39 @@
                       "attributes": "{\n  value: pass,\n  type: 'password',\n  placeholder: 'Password',\n\terror: showErrors && getError('pass'),\n  onChange: (value) => setPass(value)\n}",
                       "id": 5398172,
                       "isVisible": true,
-                      "children": []
+                      "children": [],
+                      "propsArray": [
+                        {
+                          "key": "value",
+                          "value": "pass",
+                          "isString": false,
+                          "type": "Identifier"
+                        },
+                        {
+                          "key": "type",
+                          "value": "password",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "placeholder",
+                          "value": "Password",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "error",
+                          "value": "showErrors && getError('pass')",
+                          "isString": false,
+                          "type": "LogicalExpression"
+                        },
+                        {
+                          "key": "onChange",
+                          "value": "(value) => setPass(value)",
+                          "isString": false,
+                          "type": "ArrowFunctionExpression"
+                        }
+                      ]
                     }
                   ],
                   "id": 6566228,
@@ -3863,7 +5720,39 @@
                       "attributes": "{\n  value: confirmPass,\n  type: 'password',\n  placeholder: 'Confirm Password',\n\terror: showErrors && getError('confirmPass'),\n  onChange: (value) => setConfirmPass(value)\n}",
                       "id": 361947,
                       "isVisible": true,
-                      "children": []
+                      "children": [],
+                      "propsArray": [
+                        {
+                          "key": "value",
+                          "value": "confirmPass",
+                          "isString": false,
+                          "type": "Identifier"
+                        },
+                        {
+                          "key": "type",
+                          "value": "password",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "placeholder",
+                          "value": "Confirm Password",
+                          "isString": true,
+                          "type": "StringLiteral"
+                        },
+                        {
+                          "key": "error",
+                          "value": "showErrors && getError('confirmPass')",
+                          "isString": false,
+                          "type": "LogicalExpression"
+                        },
+                        {
+                          "key": "onChange",
+                          "value": "(value) => setConfirmPass(value)",
+                          "isString": false,
+                          "type": "ArrowFunctionExpression"
+                        }
+                      ]
                     }
                   ],
                   "id": 7858956,
@@ -3898,7 +5787,33 @@
                             }
                           ],
                           "id": 9599909,
-                          "isVisible": true
+                          "isVisible": true,
+                          "propsArray": [
+                            {
+                              "key": "parentColor",
+                              "value": "props.parentColor",
+                              "isString": false,
+                              "type": "MemberExpression"
+                            },
+                            {
+                              "key": "size",
+                              "value": "medium",
+                              "isString": true,
+                              "type": "StringLiteral"
+                            },
+                            {
+                              "key": "fullWidth",
+                              "value": "true",
+                              "isString": false,
+                              "type": "BooleanLiteral"
+                            },
+                            {
+                              "key": "state",
+                              "value": "props.status && \n              props.status.type === \"pending\" ?\n                      'loading' : 'normal'",
+                              "isString": false,
+                              "type": "ConditionalExpression"
+                            }
+                          ]
                         }
                       ],
                       "id": 1976494,
@@ -3907,7 +5822,8 @@
                       "image": "",
                       "name": "",
                       "classNameExpressions": [],
-                      "style": ""
+                      "style": "",
+                      "propsArray": []
                     }
                   ],
                   "name": "Submit",
@@ -3916,7 +5832,8 @@
                   "attributes": "{\n\n}",
                   "image": "",
                   "classNameExpressions": [],
-                  "style": ""
+                  "style": "",
+                  "propsArray": []
                 },
                 {
                   "type": "if",
@@ -3960,7 +5877,15 @@
                               "name": "",
                               "classNames": [],
                               "classNameExpressions": [],
-                              "style": ""
+                              "style": "",
+                              "propsArray": [
+                                {
+                                  "key": "href",
+                                  "value": "/signin",
+                                  "isString": true,
+                                  "type": "StringLiteral"
+                                }
+                              ]
                             }
                           ],
                           "id": 1718561,
@@ -3989,7 +5914,15 @@
                               "name": "",
                               "classNames": [],
                               "classNameExpressions": [],
-                              "style": ""
+                              "style": "",
+                              "propsArray": [
+                                {
+                                  "key": "href",
+                                  "value": "/signup",
+                                  "isString": true,
+                                  "type": "StringLiteral"
+                                }
+                              ]
                             },
                             {
                               "type": "element",
@@ -4010,7 +5943,15 @@
                               "name": "",
                               "classNames": [],
                               "classNameExpressions": [],
-                              "style": ""
+                              "style": "",
+                              "propsArray": [
+                                {
+                                  "key": "href",
+                                  "value": "/forgotpass",
+                                  "isString": true,
+                                  "type": "StringLiteral"
+                                }
+                              ]
                             }
                           ],
                           "id": 4822433,
@@ -4023,7 +5964,8 @@
                       "isVisible": true,
                       "attributes": "{\n\n}",
                       "image": "",
-                      "classNameExpressions": []
+                      "classNameExpressions": [],
+                      "propsArray": []
                     }
                   ],
                   "isVisible": true
@@ -4036,7 +5978,15 @@
               "name": "",
               "classNames": [],
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": [
+                {
+                  "key": "onSubmit",
+                  "value": "(e) => {\n  e.preventDefault();\n  handleSubmit();\n}",
+                  "isString": false,
+                  "type": "ArrowFunctionExpression"
+                }
+              ]
             }
           ],
           "style": "width: 100%;\nmax-width: 450px;\nmargin: 0 auto;",
@@ -4046,7 +5996,8 @@
           "image": "",
           "name": "",
           "classNames": [],
-          "classNameExpressions": []
+          "classNameExpressions": [],
+          "propsArray": []
         }
       ],
       "isVisible": true,
@@ -4054,7 +6005,8 @@
       "description": "",
       "tags": [],
       "nameFormatted": "Auth",
-      "modulePath": "components/Auth"
+      "nameStyleModule": "Auth",
+      "modulePath": "src/components/Auth"
     },
     {
       "type": "component",
@@ -4079,7 +6031,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 5988133,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 },
                 {
                   "type": "instance",
@@ -4087,7 +6065,27 @@
                   "attributes": "{\n  buttonText: props.buttonText,\n  parentColor: props.color,\n  onSignin: onSignin\n}",
                   "id": 2737557,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "buttonText",
+                      "value": "props.buttonText",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "parentColor",
+                      "value": "props.color",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "onSignin",
+                      "value": "onSignin",
+                      "isString": false,
+                      "type": "Identifier"
+                    }
+                  ]
                 }
               ],
               "id": 9088759,
@@ -4096,11 +6094,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 3089850,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "code": "\t// Go to page after signin\n  const onSignin = () => {\n    router.push('/dashboard');\n  }\n  ",
@@ -4111,7 +6124,8 @@
       "nameLibrary": "",
       "description": "",
       "nameFormatted": "SignInSection",
-      "modulePath": "components/SignInSection"
+      "nameStyleModule": "SignInSection",
+      "modulePath": "src/components/SignInSection"
     },
     {
       "type": "component",
@@ -4125,7 +6139,39 @@
           "attributes": "{\n  mode: 'signin',\n  buttonText: props.buttonText,\n  parentColor: props.parentColor,\n  onSubmit: onSubmit,\n  status: status\n}",
           "id": 9415858,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "mode",
+              "value": "signin",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "props.buttonText",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "parentColor",
+              "value": "props.parentColor",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "onSubmit",
+              "value": "onSubmit",
+              "isString": false,
+              "type": "Identifier"
+            },
+            {
+              "key": "status",
+              "value": "status",
+              "isString": false,
+              "type": "Identifier"
+            }
+          ]
         }
       ],
       "isVisible": true,
@@ -4133,7 +6179,8 @@
       "description": "",
       "tags": [],
       "nameFormatted": "SignIn",
-      "modulePath": "components/SignIn"
+      "nameStyleModule": "SignIn",
+      "modulePath": "src/components/SignIn"
     },
     {
       "type": "component",
@@ -4147,13 +6194,46 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n  color: \"white\",\n  // normal, medium, large\n  size: \"large\",\n\ttitle: \"Get yourself an account\",\n  subtitle: \"\",\n  buttonText: \"Sign up\",\n}",
           "id": 5045478,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "large",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Get yourself an account",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "Sign up",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "isVisible": true,
       "code": "",
       "nameFormatted": "SignupPage",
-      "modulePath": "pages/signup"
+      "nameStyleModule": "SignupPage",
+      "modulePath": "src/pages/signup"
     },
     {
       "type": "component",
@@ -4178,7 +6258,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 8892414,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 },
                 {
                   "type": "instance",
@@ -4186,7 +6292,27 @@
                   "attributes": "{\n\tbuttonText: props.buttonText,\n  parentColor: props.color,\n  onSignup: onSignup\n}",
                   "id": 1730012,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "buttonText",
+                      "value": "props.buttonText",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "parentColor",
+                      "value": "props.color",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "onSignup",
+                      "value": "onSignup",
+                      "isString": false,
+                      "type": "Identifier"
+                    }
+                  ]
                 }
               ],
               "id": 6557236,
@@ -4195,11 +6321,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 3466550,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "code": "\t// Go to page after signup\n  const onSignup = () => {\n  \trouter.push('/dashboard');\n  }\n  ",
@@ -4210,7 +6351,8 @@
       "nameLibrary": "",
       "description": "",
       "nameFormatted": "SignUpSection",
-      "modulePath": "components/SignUpSection"
+      "nameStyleModule": "SignUpSection",
+      "modulePath": "src/components/SignUpSection"
     },
     {
       "type": "component",
@@ -4224,7 +6366,39 @@
           "attributes": "{\n  mode: \"signup\",\n  buttonText: props.buttonText,\n  parentColor: props.parentColor,\n  onSubmit: onSubmit,\n  status: status\n}",
           "id": 3564542,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "mode",
+              "value": "signup",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "props.buttonText",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "parentColor",
+              "value": "props.parentColor",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "onSubmit",
+              "value": "onSubmit",
+              "isString": false,
+              "type": "Identifier"
+            },
+            {
+              "key": "status",
+              "value": "status",
+              "isString": false,
+              "type": "Identifier"
+            }
+          ]
         }
       ],
       "isVisible": true,
@@ -4232,7 +6406,8 @@
       "description": "",
       "tags": [],
       "nameFormatted": "SignUp",
-      "modulePath": "components/SignUp"
+      "nameStyleModule": "SignUp",
+      "modulePath": "src/components/SignUp"
     },
     {
       "type": "component",
@@ -4246,13 +6421,46 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n\tcolor: \"white\",\n  // normal, medium, large\n  size: \"large\",\n\ttitle: \"Get a new password\",\n  subtitle: \"\",\n  buttonText: \"Reset password\",\n}",
           "id": 377481,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "large",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Get a new password",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "Reset password",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "isVisible": true,
       "code": "",
       "nameFormatted": "ForgotpassPage",
-      "modulePath": "pages/forgotpass"
+      "nameStyleModule": "ForgotpassPage",
+      "modulePath": "src/pages/forgotpass"
     },
     {
       "type": "component",
@@ -4277,7 +6485,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 4448198,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 },
                 {
                   "type": "instance",
@@ -4285,7 +6519,21 @@
                   "attributes": "{\n\tbuttonText: props.buttonText,\n  parentColor: props.color\n}",
                   "id": 5133597,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "buttonText",
+                      "value": "props.buttonText",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "parentColor",
+                      "value": "props.color",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    }
+                  ]
                 }
               ],
               "id": 8356221,
@@ -4294,11 +6542,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 3563592,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4309,7 +6572,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "ForgotPassSection",
-      "modulePath": "components/ForgotPassSection"
+      "nameStyleModule": "ForgotPassSection",
+      "modulePath": "src/components/ForgotPassSection"
     },
     {
       "type": "component",
@@ -4322,7 +6586,39 @@
           "attributes": "{\n  mode: 'forgotpass',\n  buttonText: props.buttonText,\n  parentColor: props.parentColor,\n  onSubmit: onSubmit,\n  status: status\n}",
           "id": 9813654,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "mode",
+              "value": "forgotpass",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "props.buttonText",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "parentColor",
+              "value": "props.parentColor",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "onSubmit",
+              "value": "onSubmit",
+              "isString": false,
+              "type": "Identifier"
+            },
+            {
+              "key": "status",
+              "value": "status",
+              "isString": false,
+              "type": "Identifier"
+            }
+          ]
         }
       ],
       "code": "\tconst auth = useAuth();\n\tconst [status, setStatus] = useState();\n\n\tconst onSubmit = ({ email }) => {\n    setStatus({ type: \"pending\" });\n  \tauth\n \t\t.sendPasswordResetEmail(email)\n     .then(() => {\n      setStatus({\n        type: \"success\",\n        message: \"Password reset email sent\"\n      });\n     })\n    .catch(error => {\n      setStatus({\n        type: \"error\",\n        message: error.message\n      });\n    });\n\t}\n",
@@ -4331,7 +6627,8 @@
       "description": "",
       "tags": [],
       "nameFormatted": "ForgotPass",
-      "modulePath": "components/ForgotPass"
+      "nameStyleModule": "ForgotPass",
+      "modulePath": "src/components/ForgotPass"
     },
     {
       "type": "component",
@@ -4345,13 +6642,46 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n\tcolor: \"white\",\n  // normal, medium, large\n  size: \"large\",\n\ttitle: \"Choose a new password\",\n  subtitle: \"\",\n  buttonText: \"Change password\",\n}",
           "id": 3926652,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "large",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "title",
+              "value": "Choose a new password",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "subtitle",
+              "value": "",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "Change password",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "isVisible": true,
       "code": "",
       "nameFormatted": "ChangepassPage",
-      "modulePath": "pages/changepass"
+      "nameStyleModule": "ChangepassPage",
+      "modulePath": "src/pages/changepass"
     },
     {
       "type": "component",
@@ -4376,7 +6706,33 @@
                   "attributes": "{\n\ttitle: props.title,\n  subtitle: props.subtitle,\n  centered: true,\n  // value from 1-6\n  size: 3\n}",
                   "id": 4614658,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "title",
+                      "value": "props.title",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "subtitle",
+                      "value": "props.subtitle",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "centered",
+                      "value": "true",
+                      "isString": false,
+                      "type": "BooleanLiteral"
+                    },
+                    {
+                      "key": "size",
+                      "value": "3",
+                      "isString": false,
+                      "type": "NumericLiteral"
+                    }
+                  ]
                 },
                 {
                   "type": "instance",
@@ -4384,7 +6740,21 @@
                   "attributes": "{\n  buttonText: props.buttonText,\n  parentColor: props.color\n}",
                   "id": 5378004,
                   "isVisible": true,
-                  "children": []
+                  "children": [],
+                  "propsArray": [
+                    {
+                      "key": "buttonText",
+                      "value": "props.buttonText",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    },
+                    {
+                      "key": "parentColor",
+                      "value": "props.color",
+                      "isString": false,
+                      "type": "MemberExpression"
+                    }
+                  ]
                 }
               ],
               "id": 3025936,
@@ -4393,11 +6763,26 @@
               "image": "",
               "name": "",
               "classNameExpressions": [],
-              "style": ""
+              "style": "",
+              "propsArray": []
             }
           ],
           "id": 7758873,
-          "isVisible": true
+          "isVisible": true,
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "props.color",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "size",
+              "value": "props.size",
+              "isString": false,
+              "type": "MemberExpression"
+            }
+          ]
         }
       ],
       "tags": [
@@ -4408,7 +6793,8 @@
       "description": "",
       "code": "",
       "nameFormatted": "ChangePassSection",
-      "modulePath": "components/ChangePassSection"
+      "nameStyleModule": "ChangePassSection",
+      "modulePath": "src/components/ChangePassSection"
     },
     {
       "type": "component",
@@ -4422,7 +6808,39 @@
           "attributes": "{\n  mode: 'changepass',\n  buttonText: props.buttonText,\n  parentColor: props.parentColor,\n  onSubmit: onSubmit,\n  status: status\n}",
           "id": 340607,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "mode",
+              "value": "changepass",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "buttonText",
+              "value": "props.buttonText",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "parentColor",
+              "value": "props.parentColor",
+              "isString": false,
+              "type": "MemberExpression"
+            },
+            {
+              "key": "onSubmit",
+              "value": "onSubmit",
+              "isString": false,
+              "type": "Identifier"
+            },
+            {
+              "key": "status",
+              "value": "status",
+              "isString": false,
+              "type": "Identifier"
+            }
+          ]
         }
       ],
       "isVisible": true,
@@ -4430,7 +6848,8 @@
       "description": "",
       "tags": [],
       "nameFormatted": "ChangePass",
-      "modulePath": "components/ChangePass"
+      "nameStyleModule": "ChangePass",
+      "modulePath": "src/components/ChangePass"
     },
     {
       "id": "app",
@@ -4444,11 +6863,31 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n  color: \"white\",\n  // add extra padding\n  spaced: true,\n  // logo image url\n  logo: 'https://uploads.divjoy.com/logo.svg'\n}",
           "id": 2069132,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "white",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "spaced",
+              "value": "true",
+              "isString": false,
+              "type": "BooleanLiteral"
+            },
+            {
+              "key": "logo",
+              "value": "https://uploads.divjoy.com/logo.svg",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         },
         {
           "type": "pages",
-          "id": 4632676,
+          "id": 7407840,
           "isVisible": true,
           "children": [
             {
@@ -4539,13 +6978,40 @@
           "attributes": "{\n  // primary, link, info, success, warning, \n  // danger, white, light, dark, black\n  color: \"light\",\n  // normal, medium, large\n  size: \"normal\",\n  // logo image url\n  logo: 'https://uploads.divjoy.com/logo.svg',\n  copyright: '© 2019 Company'\n}",
           "id": 9281365,
           "isVisible": true,
-          "children": []
+          "children": [],
+          "propsArray": [
+            {
+              "key": "color",
+              "value": "light",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "size",
+              "value": "normal",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "logo",
+              "value": "https://uploads.divjoy.com/logo.svg",
+              "isString": true,
+              "type": "StringLiteral"
+            },
+            {
+              "key": "copyright",
+              "value": "© 2019 Company",
+              "isString": true,
+              "type": "StringLiteral"
+            }
+          ]
         }
       ],
       "isVisible": true,
       "code": "",
       "nameFormatted": "App",
-      "modulePath": "pages/_app"
+      "nameStyleModule": "App",
+      "modulePath": "src/pages/_app"
     }
   ]
 }

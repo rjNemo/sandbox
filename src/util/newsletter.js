@@ -1,5 +1,5 @@
 function subscribe(data) {
-  return fetch("/api/newsletter/subscribe", {
+  return fetch("/api/newsletter", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"

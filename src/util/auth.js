@@ -3,13 +3,15 @@ import queryString from "query-string";
 import * as firebase from "firebase/app";
 import "firebase/auth";
 
-// Replace with your own Firebase credentials
-firebase.initializeApp({
-  apiKey: "AIzaSyBkkFF0XhNZeWuDmOfEhsgdfX1VBG7WTas",
-  authDomain: "divjoy-demo.firebaseapp.com",
-  projectId: "divjoy-demo",
-  appID: "divjoy-demo"
-});
+if (!firebase.apps.length) {
+  // Replace with your own Firebase credentials
+  firebase.initializeApp({
+    apiKey: "AIzaSyBkkFF0XhNZeWuDmOfEhsgdfX1VBG7WTas",
+    authDomain: "divjoy-demo.firebaseapp.com",
+    projectId: "divjoy-demo",
+    appID: "divjoy-demo"
+  });
+}
 
 const authContext = createContext();
 

@@ -1,68 +1,119 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### <p align="center"><b>This project was created with [Divjoy](https://divjoy.com?ref=readme) ✨</b></p>
 
-## Available Scripts
+## 👉 Get Started
+Install dependencies
+```
+npm install
+```
 
-In the project directory, you can run:
+Run the development server
+```
+npm run start
+```
+When the above command completes you'll be able to view your website at `http://localhost:3000`
 
-### `npm start`
+## 🥞 Stack
+This project uses the following libraries and services:
+- Framework - [Create React App](https://create-react-app.dev) with React Router
+- Styling - [Bulma](https://bulma.io) with custom SASS styles
+- Authentication - [Firebase Auth](https://firebase.google.com/products/auth)
+- Analytics - [Google Analytics](https://googleanalytics.com)
+- Hosting - [ZEIT Now](https://zeit.co)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## 📚 Guide
+<details>
+  <summary><b>Styles</b></summary>
+  <p>
+    You can edit Bulma SASS variables in the global stylesheet located at <code><a href="src/styles/global.scss">src/styles/global.scss</a></code>. Variables allow you to control global styles (like colors and fonts), as well as element specific styles (like button padding). Before overriding Bulma elements with custom style check the <a href="https://bulma.io/documentation">Bulma docs</a> to see if you can do what need by tweaking a SASS variable.
+  </p>
+  <p>
+    Custom styles are located in their related component's directory. For example, if any custom style is applied to the Navbar component you'll find it in <code>src/components/Navbar/styles.scss</code>. We ensure custom styles are scoped to their component by prepending the classname with the component name (such as <code>.Navbar__brand</code>). This ensures styles never affect elements in other components. If styles need to be re-used in multiple components consider creating a new component that encapsulates that style and structure and using that component in multiple places.
+  </p>
+</details>
 
-### `npm test`
+<details>
+  <summary><b>Routing</b></summary>
+  <p>
+    This project uses <a target="_blank" href="https://reacttraining.com/react-router/web/guides/quick-start">React Router</a> and includes a convenient <code>useRouter</code> hook (located in <code><a href="src/util/router.js">src/util/router.js</a></code>) that wraps React Router and gives all the route methods and data you need.
+  
+  ```jsx
+  import { Link, useRouter } from './../util/router.js';
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  function MyComponent(){
+    // Get the router object
+    const router = useRouter();
 
-### `npm run build`
+    // Get value from query string (?postId=123) or route param (/:postId)
+    console.log(router.query.postId);
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    // Get current pathname
+    console.log(router.pathname)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+    // Navigate with the <Link> component or with router.push()
+    return (
+      <div>
+        <Link to="/about">About</Link>
+        <button onClick={(e) => router.push('/about')}>About</button>
+      </div>
+    );
+  }
+  ```
+  </p>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<details>
+  <summary><b>Authentication</b></summary>
 
-### `npm run eject`
+  <p>
+    This project uses <a href="https://firebase.google.com">Firebase Auth</a> and includes a convenient <code>useAuth</code> hook (located in <code><a href="src/util/auth.js">src/util/auth.js</a></code>) that wraps Firebase and gives you common authentication methods. Depending on your needs you may want to edit this file and expose more Firebase functionality.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  ```js
+  import { useAuth } from './../util/auth.js';
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  function MyComponent(){
+    // Get the auth object in any component
+    const auth = useAuth();
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    // Depending on auth state show signin or signout button
+    // auth.user will either be an object, null when loading, or false if signed out
+    return (
+      <div>
+        {auth.user ? (
+          <button onClick={(e) => auth.signout()}>Signout</button>
+        ) : (
+          <button onClick={(e) => auth.signin('hello@divjoy.com', 'yolo')}>Signin</button>
+        )}
+      </div>
+    );
+  }
+  ```
+  </p>
+</details>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<details>
+  <summary><b>Deployment</b></summary>
+  <p>
+  Install the ZEIT Now CLI
 
-## Learn More
+```
+npm install -g now
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Then run this command in your project directory to deploy to ZEIT Now
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+now
+```
 
-### Code Splitting
+See the <a target="_blank" href="https://zeit.co/docs">ZEIT docs</a> for more details.
+  </p>
+</details>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<details>
+  <summary><b>Other</b></summary>
+  <p>
+    The <a href="https://create-react-app.dev">Create React App documention</a> covers many other topics.
+    This project was initially created using <a href="https://divjoy.com?ref=readme_other">Divjoy</a>, a React codebase generator. Feel free to ask questions in the <a href="https://spectrum.chat/divjoy">Divjoy forum</a> and we'll do our best to help you out.
+  </p>
+</details>
