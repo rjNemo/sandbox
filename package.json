@@ -1,25 +1,25 @@
 {
-  "name": "my-divjoy-project",
+  "name": "nemo.immo",
   "version": "0.1.0",
   "private": true,
   "keywords": [
-    "divjoy"
+    "ReactJs"
   ],
   "dependencies": {
-    "@analytics/google-analytics": "0.2.0",
-    "@fortawesome/fontawesome-svg-core": "^1.2.25",
-    "@fortawesome/free-solid-svg-icons": "^5.11.2",
-    "@fortawesome/react-fontawesome": "^0.1.7",
-    "analytics": "0.2.6",
-    "bulma": "0.7.5",
-    "firebase": "6.6.2",
-    "node-sass": "4.12.0",
-    "query-string": "6.8.3",
-    "react": "16.10.2",
-    "react-dom": "16.10.2",
-    "react-rainbow-components": "^1.9.0",
-    "react-router-dom": "5.1.0",
-    "react-scripts": "3.2.0"
+    "@analytics/google-analytics": "^0.4.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "analytics": "^0.5.2",
+    "bulma": "^0.9.0",
+    "firebase": "^7.15.5",
+    "node-sass": "^4.14.1",
+    "query-string": "^6.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-rainbow-components": "^1.16.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,6 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "http://localhost:8080"
+  }
 }
