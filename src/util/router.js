@@ -9,8 +9,8 @@ import {
   Router as RouterOriginal,
   useParams,
   useLocation,
-  useHistory,
-  useRouteMatch
+  useNavigate,
+  useMatch
 } from "react-router-dom";
 import queryString from "query-string";
 
@@ -37,8 +37,8 @@ export function Router({ children }) {
 export function useRouter() {
   const params = useParams();
   const location = useLocation();
-  const history = useHistory();
-  const match = useRouteMatch();
+  const history = useNavigate();
+  const match = useMatch();
 
   // Return our custom router object
   // Memoize so that a new object is only returned if something changes
@@ -76,11 +76,11 @@ function ScrollToTop() {
 
 export {
   Route,
-  Switch,
+  Routes,
   Link,
   NavLink,
   useParams,
   useLocation,
-  useHistory,
-  useRouteMatch
+  useNavigate,
+  useMatch
 } from "react-router-dom";

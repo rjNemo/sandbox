@@ -14,7 +14,7 @@ import ChangepassPage from "./changepass";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import { Switch, Route, Router } from "../util/router.js";
+import { Routes, Route, Router } from "../util/router.js";
 import { ProvideAuth } from "../util/auth.js";
 import * as ROUTES from "../global/routes";
 import "../util/analytics.js";
@@ -29,7 +29,7 @@ const App = () => (
           logo="https://uploads.divjoy.com/logo.svg"
         />
 
-        <Switch>
+        <Routes>
           <Route exact path={ROUTES.HOME} component={IndexPage} />
           <Route exact path={ROUTES.ABOUT} component={AboutPage} />
           <Route exact path={ROUTES.FAQ} component={FaqPage} />
@@ -55,7 +55,7 @@ const App = () => (
               );
             }}
           />
-        </Switch>
+        </Routes>
 
         <Footer
           color="light"
